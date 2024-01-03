@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <title>LOVENDER</title>
+  <link rel="icon" type="image/x-icon"
+    href="https://lh3.googleusercontent.com/fife/AGXqzDmjcTq3SZlt2eylcAvn_lJNiw1NPI_phpItwjVS07-IHRPOtugQ3Wr5FE_1raz4Wy4oTdJpXC7QGx2CxXII5HYmn8OWq8Vwqf2tk0q5_YF6l6l0j2LT3_i71nuoTsGWlz_F6ih8w2xLEd_TWWS5PG7PHC8_zfX31Y7fpHhlBAIsSvbUvPq9AjXUYYDDwF5tpcCSPKUwDL7AXa0tREOVW8PpPD87B3Xbl7-ejkkMz97XL4a6lzFW7LrKP5CE6qpMzQZULDIbOS2XRcWxoQ2bm_aRGzFd8i8suApUHmIDHLPnlukztH4o0ooD5ApMEzP9IVs81bteDEKD13QuW06am1z3pU3Dq_eD_Rr3T-RpZKKKLq8LZLcQkdCJd2GdaAa72DTIC8tSJ3Wlv0Q86Y-d8gck-deuiECQP3kcVqHbomQREuZGwTrNgZsoWALfh92WAge8r_G22s7gUNdZMatJttHlwNxdsWU7K0mOz0ChL5MiDGAJ5ne99SOB4ezcpu5nPDVvL0LuSUo2h69CBfk0l2Xs7wT2OiSpcN-ukekyVYrU3SThkPFAZgDI7h7_y_xGo0r8zvr8Yva1YtqDdkm0XUui3fzVRqv0lPzsWl1nzahCX99o3DX9batMSQLxB1JjEsJkcIu3qlZWlP28ToEtXKenUswbYkDTAOABzqAr0g4wcqBd5j7I3YdBTJRLv9An4xcVfgbV3stk-jtEPqRHccDL6AwksvARJ7_F3JhJ_0nizJR3VzkV5plcPnj_FFPehm-KQ3SSOsQz2AJcJwJeULcPMuroaeq6AnQf-UGcz29TbfJZu5ZgO-05s0XqRpad__NX_-aMdJaBmEZbHWRJeYsmYtbs5yJk7U47_R52_NlqjRzCF5zkAzaM46rUOIU6wAK-eApHrRSUpFq9dYH3G7sXWfLvEp0Rw8la8X7gEDADx3Fs60tAkMST0_FdxnvrvrIabomAitH6kEyBIJRkgFOc1KT3WQOsjDVdnFkj1fSFIhTbSPq539HO-U4WzunskFpcoUxRPw6tVEdQ1Y1xW2RY47p1kQhv1FTTOUcVPu6bXJHswXRhTKXO1fEf3GsjIp73dvvYMDZhjELVTfyNDRANTVNlYalEqCQh-kUdbbBwoWhynEEX6YxHA8A_dmha496q-542aefOFK-AXlJ8kyI2WTxdNhwb7FSj9XGU6TUaLpYoKc4oRbXISQEvU1gvoGM6N6X9Ww5mmW4KvUQ6mnT0zQjVjHAFsY_XrPDv4FkcVZAI4S4eJGx2awAFPhks7h0kOCwB2fcS2GcF0KG04iH8a6INa91Oiz8rFCcLkRJvo7BCUzenwuvisSPfBpk6qR9G1G4OiX1IawgYEfJBM5gJ1GBed0maAu8lQkzGCqOHXXN1CddBqQxZpfSRpgn2bGWwWB5zbgYqMeTepZ2r6X51OQX5rMGYiSd0UPyJUyHlgJ525mSnVmid9OyiXNXrU0Uat55xta1qXdPiKQTH8nUFT1c-mGNATu_XLGUpJPyRLkr00vb69s0Rbxoz-buE_DTYZAm-pgAywOpQzjPEOCzJn8tz=w2000-h1266">
+</head>
+
+<body>
+
+  <header style="position: relative; text-align: center;" id="home">
+    <img
+      src="https://lh3.googleusercontent.com/fife/AGXqzDlBiGIjQzFawkaGlHcFeHLFKPCz8X0Jkl7s5dm3XTdXigQg8_-59UozNgLaWF1e8M4jagZP3ZX1kl-NchB_9bf3Uc7-ZgDRljA0MQNVe-KrTpGoRXyMOEbu4Dwtzndi-6WFNAPm3N0urkphPEdCIopxFz7uniukc683_QZllv1i0TSs6uLcB6OOULP0AvzYE7tCSBuCTs9FLkZ54-zH_W5AYr5MFaH8WANuSPjqXoHuIdvt8C-VnHiyWg7hlACtZizAynKchVji-JNf29-8z2eXXHmIvntnIOScIAqcWWxjpr9iT4KpWSgG3fQBMOLbQSftGAlIikYrN3bU64uUQgz2E5W9Jaw1PzQ8a-tYsJT_Zx3icwMQptAONppZGbmDND4ZGEUTXxHfWivdgrrBm5Zjs4LxPQVVb8KlYizPPc51CIElNS7eaNR9a3gFeHQOnhmNEhhujHHYE7OniqL-EQvjA96UxeaZEUep-J5xmSRb438mv9hxu_avFTjV3lhbNBTZ5-6tyI8R58rSkQ_GTfhYPJ4AQLM5FZDd8RqvUaWN0YfsyAcb-m2L1nxShL-u_9zpFmeW5XFBD5N4i8JnFdQ-GtYb_i1X5V-GFFcjcccsHakESn0t7yIV9IWbkljGyrc1oLLmglZ9K2BFDA2MIRU8j_gr8HTu96Cw4eoOIdyZ4ZS97EZRcmyEZvoFDXdIBy9crGtYy05BKJVkzLiltHOxL3LRxETHcNJtBnSkyqidDYURDyzZxtXz69ZEKGFlpoYkcWdpftlYl--pgtxJvNfUffhbZ8nCINXqrh_xWA7AOF5rfNMTlljLQ3tKaMic2YheYhgypAalG7TLd2OD2L7zSQHkCqb7C77gXE21eMkrVvQ9eXQNmOHG6oooE1iRk2b7vrubAZUmCEohrl6T8gFiYrobOcioYrLeF1H8jwVFgGZLaYfHojayOTKxtkBhEbNk7S6NVWM0Cl6Ggyees-EgttSkLeNBzMaihhKKxwQPPB5rQj3l32iUI2HjA5tNW7oPkB5v97-b51kF3wTO1vdu_j2DHTT7WWL2May-Y83y2QRxsCOJQkFLJDJOOl6yQXt6sDGV5-LHis0KEx5t8VAmNewrvmA1_qv8DznhcVxLaNkcT9zOYFtLTLEFRsOi6Qt4VVC2qkKgbZI_5piJi_QB4vkHZnonza1ov7qsjo93DQJ5QyhTz1ppf1WctAII1NbnDXTVGB7v-VnmW321tOFWdxIKI7_7rlaUm72yiWMDfQcDYHCYalYUqnop1wR1efR4lOUU71PkXJ8YkigTXlwEINVSK0tm-8FCr_GzTs26S3__MBWH_-siXjV9l4Yc2GL9TYJhvnYl6DFJ7uZajz6FTdQ7tDcUynvv02QnIhBcoXbtD0Er-3f2ShNcjOqH1K5DVSpmEdQEq6WfX2q_RNZh7UxoFE_9thb2nhrS898L9waRcIjSTtq6PVfD6wPm7XgBTJWLewpUjD_TzbU1PtYFY4XZ4w1HphaazsDw2C23tRsLWtpR4lAig4WE7iVNhaGMZCW7hcEQzt3LQTD-9V0s7CMZ=w2000-h1354"
+      style="opacity: 0.3; width: 100%; position: absolute; bottom:0; left: 50%; transform: translateX(-50%);">
+    <img
+      src="https://lh3.googleusercontent.com/fife/AGXqzDn-oeFYgWI5HO-dO-MaxbZaG8A5IQzGZSkl9gdqPUl8BnoAAScXpIYDMyKEnqnAZ1Z92uiqdLK9DB6TXn_PMRRkHlD57Rza3i39gPsNE2jyHZnIqLMB3A-OCguMZpTBqRrmu7sKEg2X8hzrleU9QPqgyZnEbDyRFhaqZ9BL2yOsmksxu98c3Gh9GCQAPGc-ivhvEfiBv6dAT-_1-T9ZqRF1-C2P9Ed8hZgBKQ0jyDp185GxmeL09k4fThHko1pTxwl0ZQ7xAKyjLoXitm1f7cVVPprWTb3XBqgIJbKMxgru0W3ukvyBbGw0iHRAE6i-kQA7iwdJwx2uWLuTel1qLYUrIaYbpc7ZoAJ7uL4EA2vyjeJOArPylJtMxpx-_ggORqYZnvHHuBq_TTXIKo1vm5bfLSXiPbAQ7szjpcmxJA-vZ083iDWHC5YbphhfaLT_K_yzOiit1pShoMnsQ6sqawhl5aP4KJILqirHbTzib_LeqodzcdoS7U10JzeYklDtVhD0BUQ5pFTG0xu_paIF2unpj5HGjyfzDYetlAh19vWfEqCYDlU4B5KtqpLmYrb0rDJ0pKqPXZebR7X__dycyPq7Lli-CjMbLbPEE4l0lvA5-16O-2K663fiTgPakN94XAZBC0guAczb2QtdrwRN_5lmiqiIMvajh0GRtkF7ICM8lX4SA4yBexanVecppqqZAVjZF1nSJMXZsZJlpCR1NCpOh6lX0-S6B-JQJhcq039p6rcIqTLEkoKWZEj_oAlqkot2O1CsAi6KckRjC5KInmOlMO-Glqclb1EoHxTxJld7ny6RfyxvcPesOiCydC39cQbr2iA0xTX-CqCEVaQh0hKaYKayXj_4XmekCGKs-I-a0Juf1-MUAtQEkR4KqpjGekXWGo0CYM39We89Geh7olzDeLzghw5Ye2oFERGB3SNbN0U9OdJ5zBwxYWCgD79wcpQ_jnJgbLk3hFwHNXo75LYSn65vzzfeRtHbMsBdk0I_XB2mhqxCJwaj4iNL9SQreNUO7_Bzq1UPC9u6Ja11JKDZ1sd3lWQ9KAzgd8GQW0VSxb_94-ixyxKNRA0F8cfLgcbXiG4l8JPkbA20XhpdI_2iEveHVtK8Eq4wjYcL3LUbCD-mecukRCn8Ofb76mGnxfCal4a7HPgELDP9KGXHgAEILkkP2J79NkOQbCv9tFE57CWNAzddetV_LBsdGNkyoVlmEUEkZv__lQ5HyIXrmFF9B1d8kcZ1iXyrVImIFF8zMhFpsb6g2IKHQlFj8I2KSxESfhM2ivcmHLI6PQCkle9veL8TuFnlBMezRbJUm2HhMm0MGiw_iKkkAFdZi5ggmil7zxVZfNdEiNxCvV8-pfYCGIuuUWoHBid0dJTSUnNHT_8_U-tGYjDD8D0XK4AqNnOMh2MkocW-7XatzWuKxtj3uvSJfXTn6ewZ5nH0fCuQvJXJduOj3-BADgnMI-qMuhemDulmzZQoY0dRpX--aw4GG9dWe2zCiroN5VF-zsPPUGSfmewOuV8hrttTBv3zyjY46q22WM-z5AjV__vWZ0VkelC_=w2000-h1266"
+      alt="Lovender Family Villa" class="logo-image">
+  </header>
+
+
+  <div class="burgermenu-button" onclick="toggleMenu()" id="burgerButton">
+    <span class="material-symbols-outlined" style="color:#EFEAE6; transform: translate(0%, 25%);">menu</span>
+  </div>
+
+  <div class="burgermenu-overlay" id="menuOverlay">
+    <div class="menu-item" onclick="scrollToSection('home')">Home</div>
+    <p></p>
+    <div class="menu-item" onclick="scrollToSection('facilities')">Facilities</div>
+    <p></p>
+    <div class="menu-item" onclick="scrollToSection('rooms')">Rooms</div>
+    <p></p>
+    <div class="menu-item" onclick="scrollToSection('review')">Reviews</div>
+    <p></p>
+    <div class="menu-item" onclick="scrollToSection('rates')">Rates</div>
+    <p></p>
+    <div class="menu-item" onclick="navigateTo('policies')">Policies</div>
+    <p></p>
+    <div class="menu-item" onclick="scrollToSection('contact')">Contact</div>
+  </div>
+
+  <nav id="sticky-menu">
+    <a href="#home">HOME</a>
+    <a href="#facilities">FACILITIES</a>
+    <a href="#rooms">ROOMS</a>
+    <a href="#review">REVIEWS</a>
+    <a href="#rates">RATES</a>
+    <a href="policies.html">POLICY</a>
+    <a href="#contact">CONTACT</a>
+    <p></p>
+  </nav>
+
+  <nav class="additional-header" id="addhead">
+    <p><br></p>
+  </nav>
+
+  <div class="content-container">
+    <div class="section-one">
+      <div class="topgallery-container">
+        <div class="topgallery">
+          <img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDn4MZLdAjpesrQgALchaSacNJaIw18zbtnBZCpRR2HVnex4F_dPxObDNY3m6iVPTD2BNchv5c8wlu0vjysfAHxXqtF3z_lAMc3AyLcfhH788Wd2gOcKhxIaKqIEI0vqeT3O73UWf2Tb7vGTaCDVtfJQu84idULvau0FigPe9vxkCLT_3tVkMK2Mwhd7o1mTrMxvd-DO3jxyaMnVyjnj5sGgBhmiTxgSeTaDABV4DWE1zfldQ4-R3etJK3PHtA90MVXal7cJfNcFig-W6PJqP-OJd8wxRANz4QO9j1vX5vI5ITGyZjs5s7Fjn7R8h-od2iekd6uOO8qTyzKrjlP6F_K-XE6sFDrCsqzT3c0-CU0QX-YSdjgJejdih57lfVwJe-d2PGFELqo_Q6zycAjN-0LhQZNpu4CfijwviDXDm0j2TOhc2Agu9jBPnNkThiLm5aJN87ORdB9049rbWLVdHy-hBwSvknpKcblQwWG1-1-CO_6KHzdOWyvU2HKwK14Hlz8zVhVdPmRUmvCxeTcFFMeLxIcPnE6wr4PdkU0sUWDvc3oPqbERZZHYcnE6UnMgd8bFvoOCkU5xeN263ZbnTxfkBuA5XsSDU9Zmvphm4hCpaKkbW7q7D8V7OJemt6b-OFZF_r-TznGJ2sGKT9uExXEgfVqUB7-gKq8SByiVkLRjdGXHhy1OXTYORbhyotOE9h1wluK2mIVynEuEAS62NPCPnLQ0gnukajlNHRI_TLf_oA_fklW3nzv30Yzn3mBbfIsECH1CDrs6iaMTuz_yn4ACy_OZgOPQ8uSmDD9CQPoR7xOLqPP405_jxbNlkjY9G_Jrn7pyNejvyxuOncOkoOrm80a3YA2AnVLHGDXw278saaOf__nR5KvcGjYr33ft2NG9BxxZZHSy98Pb9vVs_SWny7kzLE2-fNVeccF4yeFOk4DRtFt7__s-SDS1yfdTzpIZFJgolXsTexZOipb0aGztZjljBz0diCEuucQ7_G5UbJOiWFTiX_PWYVYNmSI52QIcOs4YMGz5WaDwchjh-SsNvQredhzJLqmMcDcl6miy-90alD-JGq4RVf08PzCZoQY0Td7EYpoue_DjME6YdukcWp8oPsGhBY2ZAkJUhe3dZn3WC41Tc4Aoei0xviG-9tEu_EPCnD9rU6M7Eu01prKT6EPVVa41iCvx30tYn3sSpp7MReZgRKJWpLKHbp99ZVGJ3lb8nRPELIMHzxTCuiwtm_oGBEZMuluQgP3B00DCokd66gy2gj8HLlpM1HwjZKrmdOZKeKY-5UXjBIX5sCvoDrGshrkKmC_GcSWN-DnqVbJDt-Rk0N5DZnFWfjMnMWJy2MHbgJeVdDrZbGSXQsMGMqGX-5MiORnTpYyQhuSFOmpSrGwWJZlqFFRIev3Vm5qTEiJT-cQjj4i9_IiK6iZZZMFnUzSnLAh7_0-fVBxNYqGeDfIXg9Fir1QFDjmvUbDi9hF5MFZpP53iU9hsBGMyt1d24duA8K25Pcfx3svLhIOhFM2Ux2wmb1_BdVuDQ7Wzc4K8D3hESnzYKVtL9vbkS0u_=w2000-h1266"
+            alt=" ">
+          <img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDk7i19gslxQfPhVwsgYTRkf1FfcLoeyekUZtDW7LQWLTOlTA_ZtEmLnxMljSrajjy5KKszp0B9m2euoUNgbMbwsr9eBatLZrzqkOo_at2l0BVEG5NqjoW6RNem3gwzZvziNexnOo4KjBK1nn2XFrXx2XNVqSg7omFUxVud3uZNW6xI_wFCTaqbmD3bWn4qINFi3qt9HgW0aTnHSfJZ8n1C7AHu6-UCrTqYjrFaHqXrNCUtFIzIqUM3mPYJ3YHOmMId7ZWZlxK3upg_Xsx2rUJtnFgMIF0JiOUZPh96Jotmf-MieEgJ9nWEha1D5PyfN8VdpJhGdufCagj6GdnQ3yNl88vZN16u2pWSgBUss-CFhPNf6vf-vBlX9RNeCV6JedOTdeoSRnrDv9z2rTX0vu4KWuvpy1Q5L3HK90fkQKA5h0HAH7zal0V2XrmvpCxarzQR1B_eC5sYk8xIZ8JN3UkKFvCYl_bWHhqabjV5QsqwWddYYP5G5uQNdsbmk_kHp383TrWaR79XV-dfXpbT805VQ4ko-WztsXb8m7ftcqK0apxdhAu5YVZvE9oOG3-jZkl0zTpQbqHUK0uNYKytI6v-3bWJ6a1sjMFGiT6zqiYnLInKt4ldwIp-oB8wh6Ny93jhL5HYzI9fUoizT8Hb2B9cmdZNE2lw0kNfD7C6PULT6YzzQG2bnN9pf-6BioPPc9qIrE8x1ag7QcVx9gl4B9HljhN93ugFvH0w7yolOKjIpt0swvDbxtluBgjjw7Nqa5HEZDkJHglB0ffCM6ouCdD5QtmERIZWwGWQ4tsGxzizK8-at56HiewKEIQK9cnoZniGpGFDlYQgR40zi3e0pl8ZdWVRtYf_TLY5BSWEzYb32JM6m00DmdKG6vBXKV-Dq1a8BBXUkNOrvr3_ovjvZ6HfVNuyZheAQ5DSEROei3XZwcbi53dRpmCOMt91HqeBaaHSCeIYBEh9jpzsWebixf_NdMY--mBJGsJZAYpHNA-WTQlwL1hGnY2eYziB5afRMaeqP7jiQl-UzoAxCfV3fRFzwBlsiKaq37IOTCtQ2pz1kxBTN5kgEYiLqNhQAfaeB7-1QXS0edfGr9Uthag3W3Z4pToztiwclrtGYHb5f29qB_Bn9AcKzZx_gPy8f_Jgw1RoaiGyng7lCZCcp-bj0nMn7Bzo3yixKhIpnZ2mLplnKe5zsuP3K3GpIu9v8lYlxfec-us8Rv4u9iP4G8SzOwMkzhxpaJmMev1vjB8VQCgPB-LQouqWDFMW8nc-Gfi453RY5UjY6PmRStB3KXbnOwlY5hZnzBSJ0TwT85335BbXQTDZhEUe8anm_w0rl079hxX8bz1XHWZteCULycS6JAc1SeoooqcvpzxIrEfJdFKiQbMGRCStOBlGSpmfuSIjbTGWkTpfcKjgKs_Zx6-KdE9TjGDnx0cIR_C6lSly76dqvxjtFQnNObjeMYaxqy-NJ00piySqanp1jLnJjlNOIbrQKuEnlCZ-HE44w7sgnr881cGQV-0m57nJNfQtZyfpyO4c1H9OGFVrhTcmTWw6X1lRF7onP=w2000-h1266"
+            alt=" ">
+          <img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDmK20gDUtvr9uPGj2CtZ_WVyQ7s6ERtE3ABlyQ67Rc1J_YJX1Cs90-rqg1uwFgy-naEFFto_mTGFmOEq1Vdd1BbdSJhygDacwKko-f5UVcIbKRPAs7UUpmvhHr62gK3CF_uc6Zs9-G2Zd4a6TLM-sf0wz89Kb5NSash9W9YcWnpLhcWg_BiU274lz-gEateFNay8QrePvShGDc3tkA_9akxKL0-eh0UeAZd_7k_LbEnLZCdIAEgWsaz_MLbS7c336-EKr5fDQ0_VCjF2HlcI_jdIbKPcoqQbdlkT-REeG18AnEz7i0XDM8iiHguskFZ7dCwutTPl_xkFbTPkYFOwEV8mKwQF3RZN1are0DeBQ28aUQRTum1B15Y2s5CO0XwRLZdNAtmnpssnSu-L04Cle55EVwRqekYD4QHuO9qTqrVWBNNrD9_jHYzStqodP42v6N-i8PhDwnLhuQW0swDrTcu7WkWROodXDGNC_GHC4Fhuz0f9mcpyW9X21GUUSt9VIdBXwELQnw3kPGkWFOHYG6Dph_BesVDOXjKJLaoUag5jMUnzUW6XmtyWwH75p1ktnA4BAAI4q1J75tJouEvduN8EyjuXu-ALFzU3eHJAPpIWNeTvpqnWrXeg5WY3LOYzZQDC9TxX8uAUxm-inpYaCHpi4n2tku69dqH46TUL1bh7xa2aNnVtAf_t_-jBbMCOwTLav-WZ0xfdxu_VzkNfYtl8wt_V_E1db_UPdr8MtzaHBynPnDdMPS_duMB_CUOfkCKbHqhEk1i70dMZrqcKhrfg0VGWzbcBgV67_6qcvBoxeukNIV66pMO2sK2dqFjcgsnL93hewHaU4X_ROLAfXuIYfV78v7HMx7wVz_2TiQ28Tb1NHh9X3KWPNZdBcRp6t3NifVuZSE_89RWl0rbiTCsbY0nAURjbnKQmnHkxZS4fG6oiP9ObdieWvXIA1VH4aPUQlO-TNl0edpOIho7q0v8oO8bnphaKJ-zpDM2MWascz8D9CIrNSQYxvLQS80dG0zmVNm89uegsUe2QkDyKcUB6JpiobiP9ig3A-6lyFBS0z0NxEtKUrmw7VPoAN1r_uykf-Y9Y1FCiE-kjOHBxWPB4AnHPwfUdTcHGIqTWXgNuIDC57GdEDYH1hHQAc7ln7bB-HZc9CwjjNLz-BVprDIIBLr80l2n6lU4I2GDrUh-QvYRksa9m3wSySTYeZtycMoO7Aat0elZnX-04mVbghw7pdKT09-S04U8BYGOsGg3EuF2CLjSwtEa0WJokcEn8t8fxJ0tTxwaJOw_Tu7yK2r7FYl5YLlMI2mtHUGEnQgan_YTucq3fCh5VUj72G4qIQrIBK_HWngJJ4vZueYt7iE60d7f6s55OkHM2CBglwtFdMPskhglBnCQI9u0fnnQuiRQ-l1P0lDYbWUyMYPthpi6JAM83PrSohgn8m-HiY1We6sxBRzV20lsJqAKwFo75Tz9UtOiagZvPjzJXVIRmrr9YENPL3IP1P6GkwyY3jdgoxXhV0SDOUKTq6n6-Us2GKmehlsRRr89yEP7Py5ssHv9HOco=w2000-h1266"
+            alt=" ">
+          <img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDlvxpgsWblx-u4d3TUn4KRDkQ362MtoO10RVVDs1unkjliIKRD2Y5roYnYiNa6KVO0g_f8oGuwRY7R2B7BeWm0tvghc3mRcF5lKLlbATeUAlZTjcP58SJJJ43BSQxJNsKdqk_tI9ND1ogib0SWfhqSIwCoNVyzL-yIQSV4YajFHMQFv7gcr0pLkrI5GfzNs25p259YtyRDwtoJERADEqzPGYuQKrhdD7wA3rhjc_kzD1StD0tA0YXJTbhUKu3fWKnA5HqPTv1bqKhuv7pJ2_1cfYZTD6Hj9YYAzOEGVO9VQsCn1BHqivj6y4kOOWaXBU02d9gurXfDdDR3kQSN-8rnKpuF214VjY5nQ8O1LFu9aUsYoJsP0YFBdv7x94Kw-z9sgHRhStlQPl1dAjg8pYB7dsCirmpqBx_iB6avz6igL2_LOt3tWbdxmPr7t3Ppm-gd09qlWWmRbL0vAC1S6lpSnDq22DtGhbX_0V4JHQYrQFbpZQV0WYJDyw6zSdNPeAlE7Ix1ZcN8PqbuTQ3pOqaR2kd29GzciyjhRilhn7H8Rx-2LjItPNzkNqSB6QcXm9dm5REBfGhD0a8ckuX-4-t3J2mk9Jfa6v364hseMwABqTxRQc_S17w12ejfHthfA3LbPJeVWrXXbrQoxVg8VhejkKuoRlCqulXitYWY36G7p_uHRRXl0XIUbdg-O0vzef1L_ot9ELz0Yz5QX1beXgODuYa_6mvtJ4IQup7t3-8bwASiKPQdWIJjGcR6RjgZ-X2jgbcD6zjQ99C5XN4KECEQMJVFmg_e0ey0W497wUOFLAFCdu-lXOaXgVxI0ocrq5YPnr3W-zRz_jD_9zXRJWtSQ120E-3Se08dbUdiKYBBEIHC0NKYaI44XAZ4EDWuyM_lv4pyMAjrKmikZLlRC08Kg-IhwswZRB8RxpoafW3mPnByaDkweB2lKiZTRLUVh47lnq8Tg6fAulSTmzptww1J1dxrfsrIp6WunUDJdyOccPw36ZaTS5howfvJDo9w5rSyQx46vUH5FfnBhj_YDm9MqSMhA0fY4m_d6mjILOA3tpAHz54Hg8XNmK1ZUiorB3KKhnkm1alwjibN61mlvRWfxIUV8o9MNrMpcq_rrr0HDdjxJbb-pIuLaub8mfWbe9xrgepD5htGY5hrgAd9De5tN5Yz0tVA7oCFQcS7NbYbllcszt-53OXp-x3k2i80DvdP2G9CV6F3yVIHGCwXsW8-lqf8_lpl6vPgyWRbXdh4KEd1qC6EPP6EzrbpGrCuzZoqbJ-6ypp6Zaz5VHInc2TbZpyUqzKOpD-vkLzfiqFTcO8xZZvIpMoQU6YiuPL9S_F5SrXVPmd3wjncjQBvPgkT8wHI13YEUvbQ7j3mLY7aXfsZkfwAAxOGJSQAnZpqsgn0TO0z8vuQpJhSGVjbJox7p_KALSyQMkvUYSMdukqujLEOD6w7WZKWgM5XyK7vIOB-4v_yz-jSdQxzvCtC_xpOdnWj7LnHjKDyM5pz8M4prb3JaDKTmevb_brTwPwNHzgFhf_4bgSf6LHVpfetnz8BK7qba=w2000-h1266"
+            alt=" ">
+          <img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDmHYlVtskAhrPbwRIRWu9Rp85QRfKoYyUB6dcOALQNLyNu5t3Wt8LaukLA_uvgDH3vtsBScQKc7BQwFGNfRhi4BGpfyzHM-whF2C0hyqYE3I79SzoSYhlhLf6xiUaE2QRpv_IZp6NNhZ77zdqedGz-QSfvCkexo8dzCrujxgUOT1iaOhBRZc8XGy4tgUtvgiaWvLXUM_i0g7BmPYgveGeOH7imw4o3P_gkW-FtGm-9mg7TIo0iB2eQ6iTg4B2kUQFlUkmZBDrgJygiVvtzqBsLBx6HJd3pbSL3v0bVEcKGaszLrp1FCYN0cIKU18YB-YTXIcaKgUsszJeShSF8gNopTQOvNtZkPhfmzInlxLjuXqNnVQ2br_fy6rjWR7FdwCy1AYzS-fI681ed85B9VJFWQbdHbg3t6r0dKbXTGWO77-GLnSmAXRbrK2GVoBjj_2p9eZYkL0EVwkzCfcYaJQmaWPci4UP0R4iEa31LRjIKRnsdRdf8k12VS4SJ7uKac26GMLOvki0ClcU3vNIgD0uuTNTFPH4kAFKjcuKZpyOp13dgBM7loh0cquu9I3iOK0uZxK_dWn4wHklBgRTHuMMFB7US5Mqu1CccbR1WAIacHN0dmyoh26LjdMXztu2cZFOPBCxgTqlNA6aOZCKMVIoUQEzW5bfpdnpYwZz4mO_Grf5uHh4lXNXfbh2hejPuJ3gHNmXnJ4pXwK5LfkP536QnnSbau2zZYaoasMbt7AUK2KtWL9AEKws2P_49XOoow3Un9x4YU5jIYXOqy52RktExgKn73o4T47sRIO27B6qUGGFQT1nuCl9kXPP-fcrUE8IFANgM9wibcMWPBEU1KzhEUdE1ccDBnsFS4kPJg2fWvA6mUci-WbFjoWsAf5TiVsEDpmnH5oMFI0ZnMNHRQ-7NWK4ewTFXHDnDp8GiDqMx90q3XrY7NckApOWxOBo8BbgaapPvY44nzCKkkyeaGS7BQ3vUSJ0fbL7zBUWsW56uMzg5l7WU8V-wEnPOeAotnMgHcK8fSYjPSDVIauJWQARzc8Jxz4caKTRm2SdiieNqNYDBXEtSDolmEAFSCTD9L31rS9SXvRzIajFYy8-qkin2RPcEM1KsbBLtXbhfq44gm4lC0HHVRDi_NI3FLyoGvNzZoCr6bV6-IfdoL4tdmbWVPs92-WlKlhyXkqENwVoApKaPf6jIfkgl_pya48IBaVa03jaXVqZV5PKHtrlEiy22P0x-_-Dui_lIJyeThnmlGo4drAdYhfgMUL850qTTgesJYTZe7hJ5mL0svTFQm9jv4KSlexJsOj6EATktuVFtPNhCJb_mG0RIax3A9ChLzz6Zvc-BOLi8b105V0tfuCmCDOsLYRsESh2FIaKFQnTMTNBaXAVenSbSMm1aaJksR72a9_IgIhgr0liu90Qof3CDdRQ_j_mucVnP75cXtlHxtVFa15zikjFqwcQB-I8aHrY8Tq7CXFGYUb7d7fQ7PqDFzrx-FH0466ddpAf5fJWnPz-t7HlZtINVX4nTgtMPxrm-hVR9wovTtb0gpWBwExlbuBa9u=w2000-h1266"
+            alt=" ">
+          <img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDm2FdGFTHH4q4LGnPAA8jcQA2OZbiSFZrj1BFXQ109FI5jwqxLgQuRHlCdkucl1qA2N7m9JaHHcozIUYiDnQ2M-7COJgEOKdW9WZxAGXcS4wz0f3bR88gCH4rIDZdlGdA97CwdlJx3xm4UPAgaM-ZaT2lNV7ZgdXN82NzhWqVlYyCXV_kJAccN9ripMRzaSeFJQQcMOlXtt58Z0O_uIi6nXY885aUGwwErd1mt_RD2d4UzlCcyY81E3CLQr4JrH8lEicgsq4wyi0x40gnph0oBI8cNtxVVjY5VAXHTZSnveCMQCtfm4-Omb9WHJp5Q3tqsheup-pNZhEhemtBs5B-6oobHE8q0uYJKMpk0ZASu4g52N_bLdRMO7eziIgLOrYitOBC7jTMz4YtEO6O82PpAm_RMPWJTOpH498hfxxtmg1u8b3HktP06b4qJc-Nm0Z7FlZo1Ro548VTnIpCJpn7wk0YdvukYISZiNwolwagpR_2XCalu6to1_BAtYVwtpE-ke3ZCdONXrk3_oXM776bEVymaEVBfpuUVJPWY7uAzIvB7czxwdanp3O-4IjGLyL_tJGTYGehHnVH7b6iUCB7vWJUpDs-SadcHaXRj6mnxExIGPdxQPCdIhjdgNEtOPLJx9ZJZK85eyOPo-8YFtKNXZxcevorT718mGe5T36gBVQhF6hWjyIyfC1MbHmLQ7FqmHIXdNv6lKPhB9AnTN7zeLzY08edr42bWWFc3eo622kfQDUA7Y2bdcqM-mULiwEOwvb6EciQ0vN0ZgTxVH9e_SEhY6HknRAojOXwONR39cHMMEZRZ5rmkk74HUZYI9kLwo13ousyJy4s1iqxIqw5ippc5SQr67Lb67hjl6QtpU5OegIENly0L4ru_RRUoIODpIC3GS2uHmLo_rj_X-QuE-KlHjY3WX1DCrluODjOXogwMOhBAT2d3hCha6jjRO30TXN4NRkhmbAKQmSiDy8jbsfFbIWXLSYYJ4TS2cxAyXYfq9XyORHbkSriqyb1ThKq1eXn5fSwlaz_Qh5WWutGhC65cSeNHajGldHDsZI8frNstl5L0E4572rcBOE9U7qRcw9l2hQd-_J5vdguRsXF5vSnDhyvubM9jvZCL98byRbaOWnP9VZaamThI7Ze3vVYHF2H0qwiu4RR4B9yHPmDG1FYzIhgalFGkYR2_8oHs-ZAv91r-Q68Z2UjV-ExljvOEyudRSNHblY6Q1kDOUUOhkbdgM9zvdLcURWKd0nQ1pi0LPVFmISt1b91n9_HUScoOBEiIOwcNdezOUyxTL_Kf7I1uYX-nBdW2I9RyULoE6MD3n61yDXkB_9D7VLU9IYkD_e6MWmMC1G8LxNAz21BiERhNGvZEdVI2NtiEdDDDvFy-9m83MSf9MCZJW8BCrUqhy7HSDD04xzbG06UO1mJCtJCktMA-LmHRnTF3ZD08jJI7arBjrXakMJeYjEdHcaQIGeifNztnEIYpPf9ddvo4Hu2w8Vc9pvWbjrjwjvBE5GZSoj1kSi5EAc4RW8SuHxjoRQoNO7cWJhOEjrK7bM1PYS3dg=w2000-h1354"
+            alt=" ">
+          <img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDkVZq4laPSdgwvY3SM3-4jMb5lIc9QHLeWPX1qApaQd3Lmg9ltPg8Stm8YfCQmWt9S0xBe3OC8q2K-EPKLuY7zPkcPKrsMufyHRdlaCKR8_NpcU5QrK8l2i2vxauXr3RFKbDZCEaiCeF3NEkFWyhMWaF40-1Kb_ZbtO7eKZGbVyEKPNA1QnKkdMobtCLfdPo5TO9ptuFdd_1i3eoa8z7MBt7IdnpDLwKCRHcDIwCL6sldupEtWO-MDaE9MK4TROO9H7Vg61mE66Y6n3bnIzNXlWPqPUbryHjO8MJzi9NOfdoi70Y_YOGXRnhEBSw_OMU47mKvt3d1y-QjNyu87eizKVOfwLRpOEiDRoDJUyUY_ZcTS7lIuXuzo1gGcWhpdeXTHDBrGmZriOWLzvyFU-XclhJE_cBnB-RxkbUipdwPpy2laaELADDb9YtYkPlHnWIaCkA4-QQRm4p44nCG1wSIfrNcRXCFlL10bSCZb3Ng47PTDLmZlMdr8TGZpPtlzJdIfItlr6kY2Hzxrgcbuza5z322623jIOOvADfzB_I3zyYoSef-i7rHTtV9zqF31EVKcvwxAxM30ajB_ZJSSeBBlA9yYuHyDzQ1KSt8w0sjfnZu1AlM9nstmGp3YWmAetlPo0CXF4Vnuow5PvTSPnrr20XtbF4pod6EhVBVqXpt7XFmljlpucdTodD1oXO5r9PnnbTr3-JEqRJswgkWoBEEJhkxAeKKUT-vfI2_zfK65p0csVJRX4lR2wQqnJe6DtgvIIUhPEU4kvoL2l-0o8gF5k7DudAAo6Jrsp9gi3a-zXqw-J2MgRn-FcsseYzR5aHB1rFrUgJg3243xt-HjGzVuO9Wg8pgW-GK_RK-AvoKv2pKRE65XOfQBnyRri9kFVGMq7KPiv5MzR7nBJBdZBzLCYxpDB0O6sB6e4ZW1PB7EtoEvOSk4cx08bxavemDrg2MvOPAI9eh4UcG-rGQ4_P2ThYCg_QutMBjhnIsKGuQV4RcyLV66epC-xhZLzjhrlwqg-cBCd1LBkcvgv32IaPGnqViErNkrAgZohd44-_HlvGKJgpGs8_Yi_GIIqvk_utaUykZh1mPpZIJ68L9JSbVD_lgrgn-DEuhg8d4Z_RJPHwZWt75h7Ik7JVYP1TD5nRBnSSChcq40luVyIgHHRUJjcICp-TkOFWHDBZcKdSzH42i0yjVg-JD2F-MZVPfP12RvDkC0D0FvJLlyJ0mXMN1-MZBj-EAeUzlRQx8iKDeCt34Gxg00qaNFa-qUZ6Rr9sLljOHXy55fXZ0m9pOEpKqxjvGRtVwqx4Haef3KoDyR_8-9B9ochNN6-qYIxknrHB9zqRFAgRgwMxzBIzjQI-JuBqi5ckXyYfzY1haXqDpPHjeR71cvc7BRaQhUmwCeHVkzYt2Oq7BXVkmA2vMu3E4AXvbAAqOV7bSl3PWZiD91W_QZ7vIOz0r7vHNtPsg8j6o0aGVgzNZJS9oYrSQiyqAprna5I9U3SqBC4iFeVbgX0fTGoMjQw6VK_wdXd3TdPORleNcECqvBdhUhTdFeMooH3Dck6=w2000-h1266"
+            alt=" ">
+          <img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDkL-K5fDM8GfR60oe_oHLtBEBlGSNI-zjZp1IFZPcLuDbi3j5wlDAD9p7hDAJGxDNuEeUPdpSq7qlI7RKCaCzpeQ5olvcxBtROtqhMuHkXeGroH2zKLVV2htWAlDipHDVC723nwYjQS2x3Nsb6n0_rglW10qggW2lrS4Ib7fvw0pOFHcqhoEpjXiGF8w6WeX9fHvTypuBxXIcfOFBqSLbWjitgJVtphcvUuFWFiWybDQSl8itqZX7Y1_ceTlUZdZQkzdwwUVhkCDElqm1zahZgZ3xbXtLCbykJJ3aV9pT7hbzFH1sDW7Bc4XXdCOlx58vjv5MXkz1LQQphroBAGEAoo7-mUygwcTfQYeo7iVtVP-rF_BMJsAwmNbnsGAb0uuNGydPyDO_gLDEyIJ8IKfEmBwt2HAQayOck8QuZT4U-YCsa1OmN5e2Cv2PnkPh8biJ5X2iy2zmxTrZ29DkvSo1uPhUyLLuNQRGifEuMAvuXgUrRWmNFALqbM_NualIySaLpJI2jiz1vJYLn24MMbDkNDrF5ApPthcopOpY8AG8ONvLrKH2q_lvzf3RycsDXTWVn6JhuBLNV8fg05MM0zCFJLsgnwTcCrDVj4EQeFOw1D2e4-ckZ9ZZg3dav87xQPpgRiRYHPG-747sKPnydk88XTrfa38AJ7kfmlg4N-m42S48nANmpEqMJhjITUwCOD0cctuxJE8Veuw7XmwFLdNNJuzzq9w-Xek49nqWVweNkC2cAB2KMHQGXUROUTum1IgqdjAJC8skdT9I4terLbycz3PPanEzmbCrRIodiJiNAwLJHiTyVJHBI-KWejtfDxHCDVM_oOySBohvuFleprZYgzHsju-NDP9D4nVGjuNbbLs7vMhA2PLyByWsAXnqWMf4CH6Tn2RU17KXVhXrDXIs8qPZDNNFQ3t4fG_O90jkWjQrH33tDEB1zShwAn-v61GgwExn_e-g4LCwo_p8PQY-vow4f4ipvh5WiT04lue0ATW98fH9MN1tcgklIylLXHvqm9Dl3ZT9pOeoA4NQXlRIoFC4JfcZTnNhDOLqgS7zHHnehIEorbhrOZOM1NF7ART3LlHwT1n82rIzHhK4vraGwEtIdYeU0mwUyJMPxhBSP5mLiZPkszniwNry-jjVv6RHzFw4U3yt6BORBp0HmBise5QBipFDy90HWX3j43eVCPVijHcT9jEuJPSN6g73H1mfTx3ckg-r6HMNlYgyWhYW9hXOwW3jf3yCQnM6IMVEOtXyLA5HLb6BJZE2fMmH1VgsgZ7oo5OkA0pY_Xjpcy3d1WG_O9QD9VaS_dYRIQRXZQdYaZNIt6Z0DytLCAn_t6GLy7xRSH-fX3tqkJfnQisyH4tTMOsVH0zIXwI_P4lOyf1g2T2Uaqm_6lQdvs4x2AW-lTMEioQ3fNIVsJxPIl-JmSLq-AfnnxSV7WHw1R00LTNl7cyWm0QIyKPzd3YvdHvYPm9HzaA2AC8yTTKzPkCaFuiOixYk5AeMYlONHNoOTM8bqVSjXs9e84RjWoPUaZZ4NKkXG1IBJrujqFecXAff3Ct1Fi=w2000-h1266"
+            alt=" ">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-two" id="facilities">
+    <br>
+    <p style="
+      text-align: center;
+      font-family: Poppins;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 1.5px;"> Fasilitas Kami </p>
+    <p></p>
+    <div class="fasiitas-container">
+      <p>
+        <span class="material-symbols-outlined size-40"
+          style="position: absolute; left:20%; top: 100px; transform: translateX(-50%);">
+          house
+        </span>
+        <span class="material-symbols-outlined size-40"
+          style="position: absolute; left:40%; top: 100px; transform: translateX(-50%);">
+          bed
+        </span>
+        <span class="material-symbols-outlined size-40"
+          style="position: absolute; left:60%; top: 100px; transform: translateX(-50%);">
+          shower
+        </span>
+        <span class="material-symbols-outlined size-40"
+          style="position: absolute; left:80%; top: 100px; transform: translateX(-50%);">
+          tv_gen
+        </span>
+      </p>
+      <p></p>
+      <p>
+        <span style=" position:absolute; left:20%; top: 160px; transform: translateX(-50%);">Villa 2 Lantai
+          <style>
+            @media only screen and (max-width: 768px) {
+              span {
+                font-size: 10px;
+                max-width: 20vw;
+                transform: translateX(-50%);
+              }
+            }
+          </style>
+        </span>
+        <span style=" position:absolute; left: 40%; top: 160px; transform: translateX(-50%);">3 Kamar Tidur
+        </span>
+        <span style=" position:absolute; left:60%; top: 160px; transform: translateX(-50%);">3 Kamar Mandi
+        </span>
+        <span style=" position:absolute; left:80%; top: 160px; transform: translateX(-50%);">Smart TV 70"<br>(Ruang
+          Tamu)
+        </span>
+      </p>
+      <p></p>
+      <p>
+
+        <span class="material-symbols-outlined size-40"
+          style="position: absolute; left:20%; top: 260px; transform: translateX(-50%);">
+          tv
+        </span>
+        <span class="material-symbols-outlined size-40"
+          style="position: absolute; left:40%; top: 260px;  transform: translateX(-50%);">
+          skillet_cooktop
+        </span>
+        <span class="material-symbols-outlined size-40"
+          style="position: absolute; left:60%; top: 260px; transform: translateX(-50%);">
+          directions_car
+        </span>
+        <span class="material-symbols-outlined size-40"
+          style="position: absolute; left:80%; top: 260px; transform: translateX(-50%);">
+          breakfast_dining
+        </span>
+      </p>
+      <p></p>
+      <p>
+
+        <span style=" position:absolute; left: 20%; top: 330px; transform: translateX(-50%);">TV 50 inch<br>(Ruang
+          Keluarga)
+        </span>
+        <span style=" position:absolute; left:40%; top: 330px; transform: translateX(-50%);">Dapur Lengkap
+        </span>
+        <span style=" position:absolute; left:60%; top: 330px; transform: translateX(-50%); max-width:auto;">Carport 2
+          Mobil
+        </span>
+        <span style="position:absolute; left: 80%; top: 330px; transform: translateX(-50%); max-width:auto;">Free
+          Breakfast <br> (8 pax)
+      </p>
+      <p></p>
+      <p>
+
+        <span class="material-symbols-outlined size-40"
+          style="position: absolute; left:20%; top: 430px;  transform: translateX(-50%);">
+          bed
+        </span>
+
+        <span class="material-symbols-outlined size-40"
+          style="position: absolute; left:40%; top: 430px; transform: translateX(-50%);">
+          wifi
+        </span>
+
+        <span class="material-symbols-outlined size-40"
+          style="position: absolute; left:60%; top: 430px; transform: translateX(-50%);">
+          water_drop
+        </span>
+
+        <span class="material-symbols-outlined size-40"
+          style="position: absolute; left:80%; top: 430px;  transform: translateX(-50%);">
+          emoji_food_beverage
+        </span>
+      </p>
+      <p></p>
+      <p>
+
+        </span>
+        <span style=" position:absolute; left:20%; top: 500px; transform: translateX(-50%); max-width:auto;">Free Extra
+          Queen Bed<br>(Ruang Keluarga)
+        </span>
+
+        <span style=" position:absolute; left:40%; top: 500px; transform: translateX(-50%); ">Free Wifi
+        </span>
+        <span style="position:absolute; left: 60%; top: 500px; transform: translateX(-50%);">Free Air Minum <br>
+          (Gallon)
+        </span>
+        <span style=" position:absolute; left:80%; top: 500px; transform: translateX(-50%); ">Free Coffee and Tea
+        </span>
+      </p>
+      <p></p>
+      <p></p>
+      <p>
+        <span class="additional-icons">
+          <img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDntU0BNaM8pmL7oW8EF39rtfg8udfIewJkS9uvKkMEONiZygoW2SWA8sEWIxORn3eAAHMhV93-H492-eM1A7zCFYh5tO2tT6rRmYteGprXXk1ywu5H7hFr7GMi51AW77jyn2zzpZ4vwBfRJM3vq3yN4M29trriDnQ9lYgwWiK3Q95GuURWy65IAJF0oDHeW-ZMv1u43kQk0MzpnirYFCfPsPoO6uS6ckZKpRI7793PCQiqiK6g1uspUCd7oIDtQzhRAaHvvRCe69phWynBJN1QasJ37MP0ZKEhfTW-mI0dtyUbBYcnw_BQYfSxqSsEuv7CoZKWcrPpK3JDqUU4-ipfg6LGlZmctvkzOTQ03D4QCyxp9Foq7lgXZFH891LfhRAlxUEJA9Fgcf4XTXYU71WY8ErUhwCZvkyUpxSqJaIZRzvWV_-GY4M-mnZXmJgoO2Mppa40sVOFajQAfMWelq0-R11yk4SOhndV9MiFb_txdi-GbDIbtgOXU1gtOUJy0NoKun0d2YqVc9y5LQCZoLh5bQj2acToJ_5CxJuHnhjMB-uBl0t8nx9ioHWSOhPj2Z8C01kxq6ipU9nDJobzEwxhd-hsQ1l_Bbln9d76BppHgHpXp_KTCxuInJBozKOCuAmvV3FMpu-_4qNEg-DhAYFye2U1FHegdTSXFMS16IwxcVAFgiO8I-F65OLeuLyakloDloQF1dRN0_qhT00UsKLVlGPk9xLpLHy6stL2kYZPGfXxL-PS4SK6JuFM_mv_ok7DvcuBHlPccHidJR46duLk8p6j4OosUqgl_FbuP6ZcfNZlPanaMSYiq5vmqVQfUBU-vf9O2xiV1UTgVikgAkCVv4RF-AShmjHP5cs8ZK1g52wTfnhZXWoO9OLSHy8J7YspINeBLG79bWRa3YDwn_L4qsq7s1tIAR0T-zyvujYrKtygXn2i5VANHvOyqtuzrKF1ozljvn9kXnVkZVAdjMSXVvXKEFE4OgfdVg6PhWj5zQwxsZr1hCTEsNxTRYwxdBgMUi85OXLgNLGHmJcIR7qscmmVdoAQ3kIV8BM3AfEORBw8JCx88WZEBaeA3ess6rwH8-ig-PCkMYp7yfS1W8KfmxfGfeC-ljRWa6Y1ExVBHYNyV6LSSc0vmKrogQWi0ZdwWgkkEJE1DzCDWyaJvwDozjFaiDAvZcUitmDThO9tSahDXvlzTrnUwQxmOb0c-8ASSDME5i51zqjKMQawwYlzKajFZd1BQQnYgjYk5JEFX729hpSw2J2T_HZnSJNTzv9FhGhrq5TwipWW0veyMJXfEiYoKWBAwh8U-J6okorRWIuNf6eUnlKT3STS2688PJ5M2wuUz2R4NEcU3AQcql2nf1t1L6DSq0qNPFFEuNIlT-nlvuEH6odfUBlmsOEuWLBTtbzC_ZxtWgfXwLxiNJev6FZpaIokOjciryqquR5lHaa9btDy5c7qWsYNvjvSVM5eFSCnc44rDj9hmbUiiKxDkOIcshgoYKEL4xtDleFzehHWm_awLBSAB_jeFvNq-DkhuW8EukW9FSxdEy8jO94lCD2L4=w2000-h1266"
+            style="position: absolute; left:25%; top: 600px; transform: translateX(-50%);">
+        </span>
+
+        <span class="additional-icons">
+          <img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDkpJUfAIgZlEI-zAMjsDcaKKjKQIpVy8OIRshulsvwAPkkytrrkVDyTRjj60cd9_qWqj3eKxIwuYzt8N3isRtcAslXvRi207PymLU3eq7fnuc6DfdzVlaUST4wOG7u2-Gbblji81d8dfJZ-Umr0yjeiliClxpPZyRr6VvaZW_q2PGAQDGFrLl99NSirS-_QaBlkB5X2xBoqtb_ZLV4dn_TTOvq7DEhRJN9QSeCfmJRAglPR-OSFis_bPP3CdnDz96jDfHiorNW3Jz5UOhyYjrKFxMkzea_SARkDZxmGuX_3iR1pQSCFKW2GdE3cs_9-NNfVHSYXh5kOliHDmUmnIbVRtV0O4ORoiKOWjVKLqLnPNCGeJipoIh5eU3CfglTYl9Gerw_XbHosoYGTJ_4qnrL3SiR9MITQVCGsPOi8xhAiuBJXgj-gMzzGC3H4-KrTvgn0mVunemOa2H37sglaB0VK_e71Gfb01cG06-LWn1zzhPpD2N-1C94XMCH5nCqc67kXZxosoZutL5GF08wTfvMxC_WqWKqSC_DbDRsZfN4QyMJVR0c8tvT3Ji_7GwnmvitoLxaM7C7KGp3JUk5viJlJCUOKBZbR1peiVTf2Bj2FCxpaLJaBNW5PDt3snGzczSM62zqxKk9u4LCpD2FRe7xhvuavJzA22Kq1i99I_E7yXAeyYIUH0S12bZ9eDSE-LUoYEzRazAVrzvFG_mjxI8UKJdcOwqY4chNgz18K084EYhkDkjmMh6PIvLqWbnGX4JAY1KFYwCPUQVNckqo2wYo_cBJVlMzy3LFGzkzLUq5CKhx4REFHEC5VI9ICFSTktWzQ6fbnbaN0iSfPuWR9fcTHXivgmZTCVRK9c1nIvTqS_fwKk3RA_V7XtID089ZSTG-7ZPjJUCeuDhsP1Fki5WjcFbFs6xoU57Ed2OXD3tQY0vtYP-dxSQBWIP18MyINkF73Iy0__Eq0lACoyA8YBGdHOnlYGq9dhVSN9wADryF24sCPt755c_bsKAxOaa9yTQ7gRcYGqr6fJx9CoueEXBLeQn40BMvLyElPaqcQM05uhlV5Mj0N_0l-Xyb213TBuQ47nratL0nA7Damg50sWoSOGbpx69pB4Ktp2W86X8s_0JgdFM4080prJcl3XJChPiOBF6Cp-xI7ZZnifOS4LyvWX9GjFw971ShEBBIMBsfKheBxTpz98nOs1fSdhKXF_-T3sAa__kw6kL1Fp_WJXM1OQeLTSzjsgr9jPpTeXV8HGZ9Yal5he4Kzsm5mBC_FgtjVVE-7wVAHUYKhYeqfDVyoJ97ajBuQ39nOBJ6Dgdjv_H3DzjdjwTI9u-lxp-i390r_8fuEM4-bVLGXY7NJDbvmkpKdxfPWD8-j26VzYdjQucAnMBmja2b2tCSjdKxgeuvdBWcDmjze2eaezTiarNj9X2lLtZCARTMpfthpyuE4BfmXCVVRhAcODoj-dfyHO2W9e3z0Kc5K5qItlouXkhoCsSypboIrwXOWUNysorSVJMTGsJQAPIgH-b8L8hHWPlPVH0SF3FrxXa86PPqssCxBvFss=w2000-h1266"
+            style="position: absolute; left:50%; top: 600px; transform: translateX(-50%);">
+
+        </span>
+
+        <span class="additional-icons">
+          <img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDnMNLZXHzqgyE2LVVk850n6KPusFdXkdCM2PftlgVr3zyX93lTioVa9zsz6vHuCF4DRg1ms8kWVMMJ4YRSag4E_n_2G2Bx52NLw417xZkbYNGDDcYmyhrtWaAFtJuoiq9J0FnnI31ZkOPA9zFemjcEtEc8YzNpnJgZbjB2kDoO5fRf3i_65ltBnP-P4PpPD2If0aTHYp5vAU7eyr1Pe3W-cjIteA1jqsbFtylL7aCjOVQZeGUYCa77Bp4av3XzyvSz52rw1kI14fDDJllF7X9id3JwY30dtiPlpvnX47cX2EJHUQYAMgdqu0LeQBku98FUad7_7opveBFEV3ZjMwc6OxwMg6C4ZZUG0gWhQH8FhhmGw_TZTjXEzSKdRCBZ0tGf6GfnnX8LrAXl5kYWTV1yySsR9Slb9OapY4ZRwQPWHf8EJTAEGuN4hluQ2Tcsttw_4r3eN9wJB01H0QmSG2y1ZFMQDJqfxqfhaJ8hJpEksKBxo1AKX6POLGGrAKB6uwzSeFDOooIB0d8aNmIMUDSkZMI1Q3K9W3SV-t2lysIQu2LscQMi8jqoZl-YAVeuipzZLVokMDuS5jHWq5VbDA_qRRCg_Rt0J29VxGXKXyCv0aLG-PNA8AKd_5C5wzTjk2E-4Cq39B2ZW35rq6I2jO1KiWCLtd1nsaMtTMkFCr3D5mN9NwU-KwoM69rLdfK2wx2QF_BwpSsMyJJtx3DEBvEszWCDS7E4nyokHtbXJDXqa6E94eJVEX-p_mvTAHpvPjjcsjy96FFyW3bbAYRLQTnIC03nnq4rj-wLg0EjMc3VjmjIrDm8MXSQ2QLeMav215tj1FdY41ikJgnHvXhGwjIHKbvGD3C74tMBt7nlpS2nSku01jevxgMKfLQQdisVJnII9IJ9042dJpQdv7jmhexcf6LF4RH5vz5FE1yTLG0BHcZFpbcsQ890ZPUeoHWC8qio7O-pa6WlZ2kT6LlOJl2m_9rFCp4ZWorN_gRUDM3gG711duzEUTJ7DjLkJNbhaV494MSPcE8j_SDTxkSmTd_h1F7wwET9hT88XfLYis4wW_AlCI4RUlHJ29vsXMozVXbJJXSMmfg9SdAqJ3lJpmQqRqhnwusrr3AIHQSR_O1LGvPNXTd2f_n2pP5isxvQlGWvvcT4H1JC6rZhXAcaHe678jYMKRMQ0vH5sygKwsleXue8tGiy2GhYlMd8R6oS43Un7OmNIVtSB8iJLG_6RfF1MuxM4Bml_AfM4OoLCxaRB32-XeRTqIKdPbHupkDBO7Zg_EBwZbEm-PeRHOF6yLywCVQWP8ox1MyHyhtMCgW-SlytNvKDEM4YVb7dypvII307ilUnnoCX-n2n7EZ2RC4mBxYSb3gzDg6gavMxPEXzpIw-_PRt0bjx8aQ8uyjjKhOBB2y_Quhjrj04ijKWl3kFBxlpA19i2gkVDEczTGKh2607kLwxYGhwvsS-h5CJxtuF8jRlSBRva286MWrJsN3FfRLlcIx3X2_Pl_lVDestMYfi3Yf3_0R2fs6j2TL_45rUC6SBX3juuBvp29enkd0ZaMK00=w2000-h1266"
+            style="position: absolute; left:75%; top:600px; transform: translateX(-50%);">
+        </span>
+
+      </p>
+      <p></p>
+      <p>
+        <span style=" position:absolute; left:25%; top: 670px; transform: translateX(-50%);">Free Youtube Premium
+        </span>
+        <span style="position:absolute; left: 50%; top: 670px; transform: translateX(-50%);">Free Netflix
+        </span>
+        <span style=" position:absolute; left:75%; top: 670px; transform: translateX(-50%);">Free Spotify Premium
+        </span>
+      </p>
+    </div>
+  </div>
+  <div class="section-three" id="rooms">
+    <p><br></p>
+    <div class="slideshow-container">
+
+
+      <span class="living-room-text">LIVING ROOM</span>
+      <span class="overlay-box"
+        style="position: absolute; left: 0; top: 80%; width: 100vw; height: 68px; background-color: #000; z-index: 3; opacity: 0.5">
+        <style>
+          @media only screen and (max-width: 768px) {
+            .overlay-box {
+              display: none;
+            }
+          }
+        </style>
+      </span>
+      <span class="living-room">
+        <a data-fancybox="room-gallery"
+          href="https://lh3.googleusercontent.com/fife/AGXqzDkzW1GkykBFfFMABtLXtqLTmv4PCXpgx6PShQo3XuoDHlrZOskIygmACFP5yMCE6GJzuSmND8Jci2hfYZz01xvSZWgzX97Rq7NQc3pv2MrSM50MISWH_KNdZEjhWsS_N-VficbgDwXMHzHcoiNpS7L2W157MmvlzeUeafJEitYHA1MhGOCEl7kOjn1xjfAtq_vm1DFglhXKWPli_lKAmzUVlTlLd6X5gpU8ZC7bDBU55LlXRcstTbWlZ9C4Wt00S3_EP0EaM45iDmS9vVJVtBN9oG0xI-jxNChGC5VtvIbKHkh8eShWYKqQT4AcDx-_CkOGqtlp3xSDmryNBDE1ObtRj3iJy0GPFb4bntbuKzUd9y-oudtSw_KvgMUQqIklZ8WjPdi_D0lhSIfPAj3ZKzPpieey3GMLwr1EhmByaUMgm-UWsuYpZK1BLDl95ZyuKapDY1AFPIzFIGMkb8umg6ISKyQGldKKK8oHy9BKXrPgRhTWSjCyicEuq03kiQlE_4PlqW-uvQt9mXYOhBlGfw0qV-I-fkhffdT09bAG7bu-2g194P0qyb8gFDYjFm-MQHo8hTqYY-s3-0cwDpcux1g-7W7ORpxVpwAeRQwfUvWJBUjzvNGRCQtUKcli2qxTrOpeAr5dryrnw69N0la9f0f3W0v2V80vqihvL8HPUkw6nOvOIW25KwvYjKo7EI2qOwaZ9xqmFiUyFXlH_qnEX5S6JoXICJilUFTYXv2yj-9eg9ya0ARvFuoZsIFpE9wSqQN9wmDws_4Hu6Ehn13YSUdaA3kP25BiiRx0J52LS24rvyhIAR0qJIZtWPsbyANAlqYz-ey8rHExE9oZAeO1ydEXv1MOGr9bnRRLMmJb6hEHOkigKOgdQ_Ch0kaLwpsYp3RT60wNnXVd7SyX2n59PDsOyLF0lkqhEixjAFiVIfw9WDerbR65Tetb2b4HbtBlNu1gijZ1XP8Mdb5h-GJztV5csx8D8OVSKbE8pU-9acepCFYH-A5A3btZY948I6z5_LSfVvvdTVvUBBC9XDMHSR3e66D911ghZn1InKL8cHMxeLTeyCne-QEDFXsqwRtfDSYXqE-MnSSU1s5xPYujr9GDvr5BtCDu0xdrBWwgdF_uw3Jve-4scdr1MIDBXl5nJritRUOuUzOrL9tWN3sUdFIGT1YIDAHp8Z0SAwmZFzqIo3P5WiO0vIonHmuxhnHOnLho_qEp2UmFuVO1rlxknNEuPIaIqO-zTyWFh2PISLE7vSWCqhchJBBX0Z0CRWqrJRD-hfu82m7lUpgx9pYMHqpP3S61KFxdErEOVQaFYFEBlkz5tvLTVUTaofGs-v0r7m03mdzIsBwHHfJcesqmUwVi7rmKApmDvO4T3M5zXueX-ircIawl6DLHCxf434vHkD05fz5im4wSOE1x0c75kZzTJaTIuMZ0j59AqdhLvwl5RaVfysaVw6Z9v-ueBTPLcPbV61j5u53WHZ6M2heuIep1LorgXUy9TfLjG3id3k2Xg09GBIQYMBX04tReznBAI3hUOcyAd-vJYZIPnMhsXDMO3EHG=w2000-h1266"
+          alt="Ruang Tamu (Sisi 1)"><img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDkzW1GkykBFfFMABtLXtqLTmv4PCXpgx6PShQo3XuoDHlrZOskIygmACFP5yMCE6GJzuSmND8Jci2hfYZz01xvSZWgzX97Rq7NQc3pv2MrSM50MISWH_KNdZEjhWsS_N-VficbgDwXMHzHcoiNpS7L2W157MmvlzeUeafJEitYHA1MhGOCEl7kOjn1xjfAtq_vm1DFglhXKWPli_lKAmzUVlTlLd6X5gpU8ZC7bDBU55LlXRcstTbWlZ9C4Wt00S3_EP0EaM45iDmS9vVJVtBN9oG0xI-jxNChGC5VtvIbKHkh8eShWYKqQT4AcDx-_CkOGqtlp3xSDmryNBDE1ObtRj3iJy0GPFb4bntbuKzUd9y-oudtSw_KvgMUQqIklZ8WjPdi_D0lhSIfPAj3ZKzPpieey3GMLwr1EhmByaUMgm-UWsuYpZK1BLDl95ZyuKapDY1AFPIzFIGMkb8umg6ISKyQGldKKK8oHy9BKXrPgRhTWSjCyicEuq03kiQlE_4PlqW-uvQt9mXYOhBlGfw0qV-I-fkhffdT09bAG7bu-2g194P0qyb8gFDYjFm-MQHo8hTqYY-s3-0cwDpcux1g-7W7ORpxVpwAeRQwfUvWJBUjzvNGRCQtUKcli2qxTrOpeAr5dryrnw69N0la9f0f3W0v2V80vqihvL8HPUkw6nOvOIW25KwvYjKo7EI2qOwaZ9xqmFiUyFXlH_qnEX5S6JoXICJilUFTYXv2yj-9eg9ya0ARvFuoZsIFpE9wSqQN9wmDws_4Hu6Ehn13YSUdaA3kP25BiiRx0J52LS24rvyhIAR0qJIZtWPsbyANAlqYz-ey8rHExE9oZAeO1ydEXv1MOGr9bnRRLMmJb6hEHOkigKOgdQ_Ch0kaLwpsYp3RT60wNnXVd7SyX2n59PDsOyLF0lkqhEixjAFiVIfw9WDerbR65Tetb2b4HbtBlNu1gijZ1XP8Mdb5h-GJztV5csx8D8OVSKbE8pU-9acepCFYH-A5A3btZY948I6z5_LSfVvvdTVvUBBC9XDMHSR3e66D911ghZn1InKL8cHMxeLTeyCne-QEDFXsqwRtfDSYXqE-MnSSU1s5xPYujr9GDvr5BtCDu0xdrBWwgdF_uw3Jve-4scdr1MIDBXl5nJritRUOuUzOrL9tWN3sUdFIGT1YIDAHp8Z0SAwmZFzqIo3P5WiO0vIonHmuxhnHOnLho_qEp2UmFuVO1rlxknNEuPIaIqO-zTyWFh2PISLE7vSWCqhchJBBX0Z0CRWqrJRD-hfu82m7lUpgx9pYMHqpP3S61KFxdErEOVQaFYFEBlkz5tvLTVUTaofGs-v0r7m03mdzIsBwHHfJcesqmUwVi7rmKApmDvO4T3M5zXueX-ircIawl6DLHCxf434vHkD05fz5im4wSOE1x0c75kZzTJaTIuMZ0j59AqdhLvwl5RaVfysaVw6Z9v-ueBTPLcPbV61j5u53WHZ6M2heuIep1LorgXUy9TfLjG3id3k2Xg09GBIQYMBX04tReznBAI3hUOcyAd-vJYZIPnMhsXDMO3EHG=w2000-h1266"
+            alt="Ruang Tamu (Sisi 1)" style="position: absolute; left: 0%; top: 0; "></a>
+        <a data-fancybox="room-gallery"
+          href="https://lh3.googleusercontent.com/fife/AGXqzDn2KNYfRonDgDjLkt98HVF9Ui9ERBshlouDnEgSKfUKF3lpxYK2PpVkEXXIMOEGyCTGp0QahMHLda7XGdPQX0fNa4dBhQqP262zF1ENUHMUbaTKbTMfm0X-OEgXsbS-sdlzFRNnftJXIzUAS4o-aNRbDfrmQA8GlEp0T8Zibf_hCYOnC8i_vL8JV7hMZUMuTk8gHDBg57c5of6X_jTCRiVx6LDON06uSipWuys_3vEoJUUZy1BgBUpjSUqLyPvZtZEL8TPfazast9sIEjsNRLAXj7bY798orFCNSLzDN8SjTCFkhwpJ0Ckokb0F-qnqI9MOhlQJ49YvCtHAEtDx5oFat33aPqdXtNqdosCr_U13qBFcy2Tis0GdkrlTzxBw_pTHwq6IL1cSN3GDRvOrWZADl9GOl_JenKd3bcpoU2yE19pZwlx2hRMhmLkCz9Q996oB95-gMqC1y4B32aNXX4wwrL0t0cJSRxS0wmNuB4Tc__dSGzhT3-TNfhvI7lxFOM3v2AeFeXo1_-IDJtqvN8GirjkfAm3s2BNpEpa9NxRaASKYJTY7nUAMgW_Nh_pYuf_EMuHYMoSpKvlmK9MvoRlQi93-zy1sPZD02nlaUDia4W9Zdq2LQ6J3N-YfjTL0ZppQ6mIZNCzOiZRib0NJW9VAiPxokZfa2mx7bkD3npzQyf_SSJH7t6cc_AEVV1OY2OEr9K2PBvZ0sDw-1g_rATzPZmmwDGYo7gpL0VF1kUkYSpiU6BLak1ixlvokV4azVfn-obTOUe4EDWYFbd6w6I7qGCbjRN0adwgsVhqN_uZRTFwbwBKr_Wn33o2MenaaQwl5TrCYNEAsCrR-DjyWmUcnnpR8iqzauZpRd5Mjol-iQHLwzWnKJlDUVCAX7_AzY1y_jbotHmSXI7ybpw82qm9WarFEvrEei2bL6unOzfJh-Xb0crrWhFk-HoW07LE82TeROGZ-WLRpl3pHBjUp0pZhfcMKAZKZwKLCBTEhiFKKXtkoQ35EiMjucSMIUhT7TSWoYX-dvyuPNmFxn_CH0LR28h06zQ1295zUjxOBcLKIKq4pBsqpk8_HvQlOXo-Rmc2PK_gD8eHHuGSosylkUhnU3FnjJalrldN-sV_1psAaeDMUvEat_639L9a0xOFdq6SKjO23UVXlsT4-oGTD-85xQeZ69IgTEaKgYIkNb6yXkI-YJ_f33YxNGhHhduDvLKY93Xg73COogkOPNMqluTt6Vz1ChSUMFHYN8KhzAGqObDik-oC5m6FK9ayX6c4MWBYJKbg_i5LEdmD8xkp9G5X5ptmjQpZjBEm0gGz39Q4aUOLQLQDdH7WnuYANLJf1d2jgFy15ItruBXaJkLZ8qfAyS88FvC1Cs-Ee1u5iwgMaut1YhWosW_9o8fDd3_S0VwE2pZVT5TJf9XDLCtc4vlakD3ew5fpekQBjX924tzuIqQFY0gwlfrc9E3sTtk9hMwloy01wXaYNpG1D900k0PGWkw2J2oMHuqEcbcQjQmvnRtq9WzSVJe-jbdYam23ViQ5tpmxvcUjl3UR-cXuRTLemdZn8=w2000-h1266"
+          alt="Ruang Tamu (Sisi 2)"><img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDn2KNYfRonDgDjLkt98HVF9Ui9ERBshlouDnEgSKfUKF3lpxYK2PpVkEXXIMOEGyCTGp0QahMHLda7XGdPQX0fNa4dBhQqP262zF1ENUHMUbaTKbTMfm0X-OEgXsbS-sdlzFRNnftJXIzUAS4o-aNRbDfrmQA8GlEp0T8Zibf_hCYOnC8i_vL8JV7hMZUMuTk8gHDBg57c5of6X_jTCRiVx6LDON06uSipWuys_3vEoJUUZy1BgBUpjSUqLyPvZtZEL8TPfazast9sIEjsNRLAXj7bY798orFCNSLzDN8SjTCFkhwpJ0Ckokb0F-qnqI9MOhlQJ49YvCtHAEtDx5oFat33aPqdXtNqdosCr_U13qBFcy2Tis0GdkrlTzxBw_pTHwq6IL1cSN3GDRvOrWZADl9GOl_JenKd3bcpoU2yE19pZwlx2hRMhmLkCz9Q996oB95-gMqC1y4B32aNXX4wwrL0t0cJSRxS0wmNuB4Tc__dSGzhT3-TNfhvI7lxFOM3v2AeFeXo1_-IDJtqvN8GirjkfAm3s2BNpEpa9NxRaASKYJTY7nUAMgW_Nh_pYuf_EMuHYMoSpKvlmK9MvoRlQi93-zy1sPZD02nlaUDia4W9Zdq2LQ6J3N-YfjTL0ZppQ6mIZNCzOiZRib0NJW9VAiPxokZfa2mx7bkD3npzQyf_SSJH7t6cc_AEVV1OY2OEr9K2PBvZ0sDw-1g_rATzPZmmwDGYo7gpL0VF1kUkYSpiU6BLak1ixlvokV4azVfn-obTOUe4EDWYFbd6w6I7qGCbjRN0adwgsVhqN_uZRTFwbwBKr_Wn33o2MenaaQwl5TrCYNEAsCrR-DjyWmUcnnpR8iqzauZpRd5Mjol-iQHLwzWnKJlDUVCAX7_AzY1y_jbotHmSXI7ybpw82qm9WarFEvrEei2bL6unOzfJh-Xb0crrWhFk-HoW07LE82TeROGZ-WLRpl3pHBjUp0pZhfcMKAZKZwKLCBTEhiFKKXtkoQ35EiMjucSMIUhT7TSWoYX-dvyuPNmFxn_CH0LR28h06zQ1295zUjxOBcLKIKq4pBsqpk8_HvQlOXo-Rmc2PK_gD8eHHuGSosylkUhnU3FnjJalrldN-sV_1psAaeDMUvEat_639L9a0xOFdq6SKjO23UVXlsT4-oGTD-85xQeZ69IgTEaKgYIkNb6yXkI-YJ_f33YxNGhHhduDvLKY93Xg73COogkOPNMqluTt6Vz1ChSUMFHYN8KhzAGqObDik-oC5m6FK9ayX6c4MWBYJKbg_i5LEdmD8xkp9G5X5ptmjQpZjBEm0gGz39Q4aUOLQLQDdH7WnuYANLJf1d2jgFy15ItruBXaJkLZ8qfAyS88FvC1Cs-Ee1u5iwgMaut1YhWosW_9o8fDd3_S0VwE2pZVT5TJf9XDLCtc4vlakD3ew5fpekQBjX924tzuIqQFY0gwlfrc9E3sTtk9hMwloy01wXaYNpG1D900k0PGWkw2J2oMHuqEcbcQjQmvnRtq9WzSVJe-jbdYam23ViQ5tpmxvcUjl3UR-cXuRTLemdZn8=w2000-h1266"
+            alt="Ruang Tamu (Sisi 2)" style="position: absolute; left: 0%; top: 0; "></a>
+        <a data-fancybox="room-gallery"
+          href="https://lh3.googleusercontent.com/fife/AGXqzDlhcTAlAEbU85UiBUhniB2FUJmHIGYviLecRYjD3qXS9-O7_nId8C8Al_9okz4Wturj0K-KvNN_idwEQ-g0BhDOzBTa8HFc6LVjO9UM3G_PxlzBFn61OMCkeMcvCdvqDsDRDVvgRZQ9_EQMm2hiARZs_K0Ghn4Yz8VJouds8niGXIl_gXRuPUJ3vKYsYNM8kzMC8k1FQaSvCiLX8k88qTAv4bY365xd4CM7UgzxfzuizX1hKmiwsopzfoJ3o44qtRRaezoAisz9Vifljd-NFtT_QcEEuivkYQDqqLNEoBWhpOnhBtQcs0itMxgSvvaCkj_smWAyLO594ot9_fGVkerD4D6gzaw3ZKewQYHlGjQgQUsdLRAFxbKga2rwVZ-9MZ6nYdw2cADjpAe2aVmlI_rVtGAwCaSnMa5sgbsKgyDwWBqshAZ6-Wnznil4hRMJklCJhoIM5rlhFmR7-MV72RP0UBgl8dvL2vjcSdJ7CBxo4tRvmWG0P3xYwvkb0_V_YQcO5brBwCRpTIfIwk7YvcOXUtTifu623ONJKQjoRTq_EF7vLrtCBUAi_5G9Ma5QrlMCX-CLBiIIncLIruEygXGZdGrRNLBvjtZNdQjBOOTHVHZ7yity7eaQrY5P_S4kpIUdvEKqpyXCJbFNPLeJrvwh_tjnUL12twHwJM9iHWrCx9vJTtfFTEdenAvB7dVhA8TtrZMqwuUGl4eXs3d2VgrB1jC9KA0HSU9LXSRmwQsvAd-1stAAkRZP2rRilpXeUauWwkKpXgC_KFI1-D_aSdbO7tvEr9UjUKTff6rqWm0Z8lp9EYKjPvQsCcB3hMxxgFzIUJeQmU2JPP7z9BWaCR8LhESAXCadWLn8dKuO2RCIaU0sg4DpbpTt5fFvax64svlv_OfrgN195yxD-tmXXmWGZSTA2V3dvvRF1icswgUX8Dtrsy3NzyXm1CXyNYNvE_aqWYbpcvmhYNw3cu5ZJtzcrpHcju2kIaS8dw-JHNLO_UYMleHL18KIDnAG4uDZYWf5RiaWBOlOPDNrbNeJgJHGyRu6wOf0i6qdqxJXOX7lApNo3GN7sGi_1BuBy32VgjEPiwXHiMf-n_nDkHOZbmcWJNKl-wuV24B2mOh894xeeMxKBExMfGjSwQzg7-pMW15FltogvESh4aKfHPRJMICw5c4L3MqWsXbsZKv-VmChMFBq7uZAB7uYrtJO8U6u04J8h_BNHXK9OCtegtCu0XpWXr2WKhGTyDsaBB4fojeUO8hJvV3E8zb6jzQmOa4jtnMwZQ9epuFo0XJa9D8UJzp91Tggbo9FuvnpPrUWARScidwdvGSwadmO_8BtDq9wAnUjbwyju5N-rLP75IR6u3G0sJoe0MNRAyU13BcIG-2OjifCAPdvEaEPJwLY3cYv4CeiGDBR8lOShcLUulfBsl8o2vFMjqhYKPdJ8y5MwEYVo8RKskxl7cmRZoreIeGWKS0aNfAdHkpipn1ZRzvGE2U-4YKqNRn86hUT1wOIVJeF-13qAMV85ye1HhUND47Uf_dprgspANq8S04BOZIa5UFGX2Ky=w2000-h1266"
+          alt="Ruang Tamu (Sisi 3)"><img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDlhcTAlAEbU85UiBUhniB2FUJmHIGYviLecRYjD3qXS9-O7_nId8C8Al_9okz4Wturj0K-KvNN_idwEQ-g0BhDOzBTa8HFc6LVjO9UM3G_PxlzBFn61OMCkeMcvCdvqDsDRDVvgRZQ9_EQMm2hiARZs_K0Ghn4Yz8VJouds8niGXIl_gXRuPUJ3vKYsYNM8kzMC8k1FQaSvCiLX8k88qTAv4bY365xd4CM7UgzxfzuizX1hKmiwsopzfoJ3o44qtRRaezoAisz9Vifljd-NFtT_QcEEuivkYQDqqLNEoBWhpOnhBtQcs0itMxgSvvaCkj_smWAyLO594ot9_fGVkerD4D6gzaw3ZKewQYHlGjQgQUsdLRAFxbKga2rwVZ-9MZ6nYdw2cADjpAe2aVmlI_rVtGAwCaSnMa5sgbsKgyDwWBqshAZ6-Wnznil4hRMJklCJhoIM5rlhFmR7-MV72RP0UBgl8dvL2vjcSdJ7CBxo4tRvmWG0P3xYwvkb0_V_YQcO5brBwCRpTIfIwk7YvcOXUtTifu623ONJKQjoRTq_EF7vLrtCBUAi_5G9Ma5QrlMCX-CLBiIIncLIruEygXGZdGrRNLBvjtZNdQjBOOTHVHZ7yity7eaQrY5P_S4kpIUdvEKqpyXCJbFNPLeJrvwh_tjnUL12twHwJM9iHWrCx9vJTtfFTEdenAvB7dVhA8TtrZMqwuUGl4eXs3d2VgrB1jC9KA0HSU9LXSRmwQsvAd-1stAAkRZP2rRilpXeUauWwkKpXgC_KFI1-D_aSdbO7tvEr9UjUKTff6rqWm0Z8lp9EYKjPvQsCcB3hMxxgFzIUJeQmU2JPP7z9BWaCR8LhESAXCadWLn8dKuO2RCIaU0sg4DpbpTt5fFvax64svlv_OfrgN195yxD-tmXXmWGZSTA2V3dvvRF1icswgUX8Dtrsy3NzyXm1CXyNYNvE_aqWYbpcvmhYNw3cu5ZJtzcrpHcju2kIaS8dw-JHNLO_UYMleHL18KIDnAG4uDZYWf5RiaWBOlOPDNrbNeJgJHGyRu6wOf0i6qdqxJXOX7lApNo3GN7sGi_1BuBy32VgjEPiwXHiMf-n_nDkHOZbmcWJNKl-wuV24B2mOh894xeeMxKBExMfGjSwQzg7-pMW15FltogvESh4aKfHPRJMICw5c4L3MqWsXbsZKv-VmChMFBq7uZAB7uYrtJO8U6u04J8h_BNHXK9OCtegtCu0XpWXr2WKhGTyDsaBB4fojeUO8hJvV3E8zb6jzQmOa4jtnMwZQ9epuFo0XJa9D8UJzp91Tggbo9FuvnpPrUWARScidwdvGSwadmO_8BtDq9wAnUjbwyju5N-rLP75IR6u3G0sJoe0MNRAyU13BcIG-2OjifCAPdvEaEPJwLY3cYv4CeiGDBR8lOShcLUulfBsl8o2vFMjqhYKPdJ8y5MwEYVo8RKskxl7cmRZoreIeGWKS0aNfAdHkpipn1ZRzvGE2U-4YKqNRn86hUT1wOIVJeF-13qAMV85ye1HhUND47Uf_dprgspANq8S04BOZIa5UFGX2Ky=w2000-h1266"
+            alt="Ruang Tamu (Sisi 3)" style="position: absolute; left: 0%; top: 0;"></a>
+        <a data-fancybox="room-gallery"
+          href="https://lh3.googleusercontent.com/fife/AGXqzDn3CMi8txKpboi-clun8i9vck8168sya9KMWvZ9u_VtDCalw5Q4yEGPTp-MRpr9MX7Fu5bjGAb4Pt0bNUPjulQcopRV3C3mkq_QxaU_MoWifLVJn8tc0sPrApf0ys9UP2Q0x9aYSSaUH5JePK2BBXNuunBSpw4Arai_1BAqFz2C8vF8FBetjXFqRYHkkQ61PQjXhmGSyQgrct_xSOcxz0nGQ6_HUqN2W2Lltaec97ExghoLTjFJkdxAq-goegBS6TVUmwA4U0v59t7ss-nEUUcTLyUq_FwLf7_hhj9i6jrXLBuVmumjWnamYvaizgA_W8Cz7FtVNx4iXKQYq0NrHMsd4lG9OxEjtlM-v6fbdu6A_9Knb9AbkQRo6tgmgB_LpacY5KnhaTI5PvhyHDPd_eXUDyM5_1SyR_1qfzGTZvUXKhTy0iX0bbaQ6801JTYyK8umKUXWVR2nE3QeYfm93Egm-FpV2Xo6gsQos8XfZz6sPLkF7Fih6Cz4whmv4byWSw9wBEc0TRr17wfZrTybhb_Fa99dzUG_I8kzdc6ORPOn4_hqyN4b9ZcEkFjBfq0QwvcCmh5ifa6qiRtQ14DGQ5d882d7_dBb1hB2vIe2MP_PLEdEMSXFkyVDv3jzKHMZujL42EGH_PwTkM88slLfuC8ZL0MfulL3ghzVPN0v9BZZuTLOtHdDmkIjWWVOmwqkos8FQx7dW6aumQ_c4hojo5J9pEJPEhGFB7TdMUwY2UtUhmyAmHE8xKTeo5KplO3a4KwY1Gn114S7tnlBl8SOkzr6HZr0Cri6G4PhOhQ5n55ZgtMpd15dJHtGZmlI4mF9fMfathgFe59AGrWR55T-ZCKOrISbibeS_iJB9836kv3rSdMES6qrI6lZmGuuo522xwgbJafNP7q3Bk-M0pcavG7fosU4mSmGIqqXM5qpsSF0pAG5v9ehZ6PijuBDU21UZwVtlZHdEEMDIRn9-faBtJOSzbdaBeDve-f8coZaNUmnvBQ1h1RknYLc-GgYi1SBcwctz_Dc-9C75Ah_9wk3lqZQxoSmRQLQdrJPqssGsUVYOTUvMaXAGqE48mX868lvZ6LepMQFFCnP_Y9x2xyz_d1AIh9iSRyzgjwnOUWsNhiA71p3XdP4B_DoNzSk_1M2GJLrk9Puv9FsRvIE8CprK9mEEVZnw3JtTwDs7gCMwkCD0Vzn5uxmMDYM1OBoKxabAY_JvITKOAyoNZwWcIGAHMXHfK8G8O-J7zHcw95hgo4mtq0MN-fPovG6zGUUV4QT6DgP1FUEQQXYMIWxkMfHe-rjeoXRu4YQZQjLTFBIXXI2pOlXaTJqxgo5FziSr7tm4WUMGeg_5bMxWnKz8b7YpDw8bMkOcsnGD0vI8bti5JHSkm4pHPwHR0ywpFc56RFkRDYyk2KHVj9hfhGk9MG1jllDBpH9QvOG3heiBmDQCjqgVVoqX-_93EzICyhuYq30FlVuPFjwD1ZeCKHv2B3w6YU_zy9XDyKKMDYeU3z6wXjFG3ifSk9udTRFvUu94pTt-jK6lEUqnpcgAnsC1xjdFtHDoHEx=w2000-h1266"
+          alt="Ruang Tamu (Sisi 4)"><img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDn3CMi8txKpboi-clun8i9vck8168sya9KMWvZ9u_VtDCalw5Q4yEGPTp-MRpr9MX7Fu5bjGAb4Pt0bNUPjulQcopRV3C3mkq_QxaU_MoWifLVJn8tc0sPrApf0ys9UP2Q0x9aYSSaUH5JePK2BBXNuunBSpw4Arai_1BAqFz2C8vF8FBetjXFqRYHkkQ61PQjXhmGSyQgrct_xSOcxz0nGQ6_HUqN2W2Lltaec97ExghoLTjFJkdxAq-goegBS6TVUmwA4U0v59t7ss-nEUUcTLyUq_FwLf7_hhj9i6jrXLBuVmumjWnamYvaizgA_W8Cz7FtVNx4iXKQYq0NrHMsd4lG9OxEjtlM-v6fbdu6A_9Knb9AbkQRo6tgmgB_LpacY5KnhaTI5PvhyHDPd_eXUDyM5_1SyR_1qfzGTZvUXKhTy0iX0bbaQ6801JTYyK8umKUXWVR2nE3QeYfm93Egm-FpV2Xo6gsQos8XfZz6sPLkF7Fih6Cz4whmv4byWSw9wBEc0TRr17wfZrTybhb_Fa99dzUG_I8kzdc6ORPOn4_hqyN4b9ZcEkFjBfq0QwvcCmh5ifa6qiRtQ14DGQ5d882d7_dBb1hB2vIe2MP_PLEdEMSXFkyVDv3jzKHMZujL42EGH_PwTkM88slLfuC8ZL0MfulL3ghzVPN0v9BZZuTLOtHdDmkIjWWVOmwqkos8FQx7dW6aumQ_c4hojo5J9pEJPEhGFB7TdMUwY2UtUhmyAmHE8xKTeo5KplO3a4KwY1Gn114S7tnlBl8SOkzr6HZr0Cri6G4PhOhQ5n55ZgtMpd15dJHtGZmlI4mF9fMfathgFe59AGrWR55T-ZCKOrISbibeS_iJB9836kv3rSdMES6qrI6lZmGuuo522xwgbJafNP7q3Bk-M0pcavG7fosU4mSmGIqqXM5qpsSF0pAG5v9ehZ6PijuBDU21UZwVtlZHdEEMDIRn9-faBtJOSzbdaBeDve-f8coZaNUmnvBQ1h1RknYLc-GgYi1SBcwctz_Dc-9C75Ah_9wk3lqZQxoSmRQLQdrJPqssGsUVYOTUvMaXAGqE48mX868lvZ6LepMQFFCnP_Y9x2xyz_d1AIh9iSRyzgjwnOUWsNhiA71p3XdP4B_DoNzSk_1M2GJLrk9Puv9FsRvIE8CprK9mEEVZnw3JtTwDs7gCMwkCD0Vzn5uxmMDYM1OBoKxabAY_JvITKOAyoNZwWcIGAHMXHfK8G8O-J7zHcw95hgo4mtq0MN-fPovG6zGUUV4QT6DgP1FUEQQXYMIWxkMfHe-rjeoXRu4YQZQjLTFBIXXI2pOlXaTJqxgo5FziSr7tm4WUMGeg_5bMxWnKz8b7YpDw8bMkOcsnGD0vI8bti5JHSkm4pHPwHR0ywpFc56RFkRDYyk2KHVj9hfhGk9MG1jllDBpH9QvOG3heiBmDQCjqgVVoqX-_93EzICyhuYq30FlVuPFjwD1ZeCKHv2B3w6YU_zy9XDyKKMDYeU3z6wXjFG3ifSk9udTRFvUu94pTt-jK6lEUqnpcgAnsC1xjdFtHDoHEx=w2000-h1266"
+            alt="Ruang Tamu (Sisi 4)" style="position: absolute; left: 0; top: 0;"></a>
+      </span>
+
+      <span class="dining-room-text">
+        DINING ROOM
+      </span>
+      <span class="overlay-box"
+        style="position: absolute; left: 33%; top: 80%; width: 100vw; height: 68px; background-color: #000; z-index: 3; opacity: 0.5"></span>
+      <span class="dining-room">
+        <a data-fancybox="room-gallery"
+          href="https://lh3.googleusercontent.com/drive-viewer/AEYmBYR1kWAe09DqqhqD42UC19TJPsbSq5rzeXEVXVjPWKpy6nO1aQ0fyBRuIlqeoZqrP7il28AnK0kLp9bgeVUzXfEchAi-Jw=s2560"
+          alt="Ruang Makan (Sisi 1)"><img
+            src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYR1kWAe09DqqhqD42UC19TJPsbSq5rzeXEVXVjPWKpy6nO1aQ0fyBRuIlqeoZqrP7il28AnK0kLp9bgeVUzXfEchAi-Jw=s2560"
+            alt="Ruang Makan (Sisi 1)" style="position: absolute; left: 33%; top: 0;"></a>
+        <a data-fancybox="room-gallery"
+          href="https://lh3.googleusercontent.com/drive-viewer/AEYmBYQjZAg2ERt241QfK8_yokm8Pd0u3QfKlhYU5BQAElLOU7BezgMO0R_lWNpt7jd6Wob7VVvcCKqtbw4wlxU7sqlZRNEUKg=s2560"
+          alt="Ruang Makan (Sisi 2)"><img
+            src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYQjZAg2ERt241QfK8_yokm8Pd0u3QfKlhYU5BQAElLOU7BezgMO0R_lWNpt7jd6Wob7VVvcCKqtbw4wlxU7sqlZRNEUKg=s2560"
+            alt="Ruang Makan (Sisi 2)" style="position: absolute; left: 33%; top: 0;"></a>
+      </span>
+      <span class="gazebo-text">
+        BACKYARD GAZEBO
+      </span>
+      <span class="overlay-box"
+        style="position: absolute; right: 0%; top: 80%; width: 0vw; height: 68px; background-color: #000; z-index: 3; opacity: 0.5"></span>
+      <span class="gazebo">
+        <a data-fancybox="room-gallery"
+          href="https://lh3.googleusercontent.com/drive-viewer/AEYmBYS1hvYBaDCsfp890OkzVEwxIh8rZPHrx1sD6oVeSZqqNn7HPnTZbIP_OwRiE6_eSilO0B2kb3KsjfLR22v1YZAquC_Klw=s2560"
+          alt="Gazebo (Sisi 1)"><img
+            src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYS1hvYBaDCsfp890OkzVEwxIh8rZPHrx1sD6oVeSZqqNn7HPnTZbIP_OwRiE6_eSilO0B2kb3KsjfLR22v1YZAquC_Klw=s2560"
+            alt="Gazebo (Sisi 1)" style="position: absolute; right:0%; top: 0%; top:0;"></a>
+        <a data-fancybox="room-gallery"
+          href="https://lh3.googleusercontent.com/drive-viewer/AEYmBYSNb7lm89bMzVdVYXi5I2FIalQljrnQty88-Pqbsz9-mHx6lRLsQlKBRH9t2F8cpOOZ9FwkOBSGp8agooUElnNLhNBglQ=s2560"><img
+            src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYSNb7lm89bMzVdVYXi5I2FIalQljrnQty88-Pqbsz9-mHx6lRLsQlKBRH9t2F8cpOOZ9FwkOBSGp8agooUElnNLhNBglQ=s2560"
+            alt="Gazebo (Sisi 2)" style="position: absolute; right:0%; top: 0;"></a>
+        <a data-fancybox="room-gallery"
+          href="https://lh3.googleusercontent.com/drive-viewer/AEYmBYTzmch4rn1iyOc90aj4_tGuICLxJuK2RVOyMiz7JiSMlLE4ubilZjh5jz1oxi3jY0Vi9xAp4ciB-keH0m1IJwBbZVsLVg=s2560"
+          alt="Gazebo (Sisi 3)"><img
+            src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYTzmch4rn1iyOc90aj4_tGuICLxJuK2RVOyMiz7JiSMlLE4ubilZjh5jz1oxi3jY0Vi9xAp4ciB-keH0m1IJwBbZVsLVg=s2560"
+            alt="Gazebo (Sisi 3)" style="position: absolute; right: 0%; top: 0;"></a>
+      </span>
+    </div>
+    <div class="slideshow-container">
+      <span class="famroom-text">
+        FAMILY ROOM (2ND FLOOR)
+      </span>
+      <span class="overlay-box"
+        style="position: absolute; left: 0; top: 80%; width: 100vw; height: 68px; background-color: #000; z-index: 3; opacity: 0.5"></span>
+      <span class="famroom">
+        <a data-fancybox="room-gallery"
+          href="https://lh3.googleusercontent.com/fife/AGXqzDl6NyyLHaJgSBVJv2--P7iNBjcz0GQV-xzp0papjqdV5lM1qcQLHPo2qQegV1ZDmyH4pwgvFY3EWWPrAHOxmWtSYwNBzmsMP16Y6pcrX5Nq9tuNqU3IzUIsrF14gX0onOhXtV1u-NYupmRaJhCKoW_2HOfxNJUTQjks0xQ0uVIKOPt0LvST7fnxfjZ-ll8r6hXF2VpWA78bkZL9AnTMU8B1UYF-CkkjDQ1dQKN7uk1HZ3IBTLC-c7Da59UoI3m31Se3LYx8B47qjmaAAMsrskZsBoxuyw9sK-B_2Fu1-0E4_3pix9CTtJXSL-43skaGMy8oOK0ePDZdHLCLqaiSLt8MEBEbpQKNlcSMhjPX1U2-YRzIOTarg3XQPgaK5fQ6En_ytrQEjp_Ge7595gwYn0NTxGIZDI7rBUpS9zdcjM7tKXMi4LmFs-8w_fPj-ITNv9TFu30z_LtMY-L8HwRcmZrImIcqmjhNxwU8-sLQNRuOGo15xcnSQY9OrgqEllmP0WwAE93SuuiBbW8DPmKCgKuiYn9By9AzeAPViBUKfpOwY81nDsyd_AfMRXVe5U05GFAXGQ6qQdGQGxN4s-rlhmyp7L4NFoOxHVG0fQQ9t0LRJOkqpZzcTdz-VEfgTi4xbBdu65UZ-5QTAH9wx0tUrGE54eus1aQj0vp7A75gZ_hoTOUPNMDpPs7rteXHkppCFpgMn9w1btg78IBK48sRbbX5LrHTR2FmWWDXBDuveAD-poJ8RjeHw13wqJJFtKSNqXkbOVzIWrgetUf-gpJl2IhYi337913o0rllysjZBy1926p098YacDBN1AB8maV0HdPdXGYEWfzHS76eA5X7G6XerNzEOtxZqggIAUa5Knb_QvtcPPDwQ8PnrRubnt1ua9kK2PoUUoD7YOhgx1zNBkzLfChZB5qKpQLK10id-9Sa07f-Tm27AXFyr2DC-3d1PsdRpkNKCg9KmfRzF0GD2ndX5x_dpK-acQu0GSuK1d8QrsXTglc6DHXw_Ymt2FFaDAn2JkZlRb0sbLQkoEDECjfYZqhET_JKP_Btr78uVnw4nHO_c1Lwxk08npiJk7TNGX0LjppeuiCOBtzXm_wpahtni1IqiXa1mDzzCaAGtd4daIilwbfpwYjejEi_u6tF1Mf3L8U_E8p0S7L3E7GuuSqsRZV1RipzdmMVBvEWK18h6lODbc1H3YJLAOEcBHb341dTaWJ25CINC-3v5i7Jvw-w8HEBRckE-TE1A_spf058v6Gj21YENXAXHhDaI5j5NIL4-jHotzKSrW9bLP5659gVKu_IDuMtXfFR2Y8XCI6ZxJuinb1uPJP5SkwTAJHssdFqvW-jqa0bjEqSvMuHoWLgiDD8AOF5TXuZHcf_GJKsNyBaZIbZYzoTy75UKr1dwCixxS21cHHuXAkbZvJG5Ytbg9BCz8o2GmGzghuZuS_WXWrP3Jr7nXup5Iw1WWVhUr2oPkFtXeRREcOk_p5GHm6djc-4thX2SuErjl5M2rAP-kYMRiPcO_GEF6eX_T03H-4pQg2r8z5vWduv2G7w-6sEuFV_=w2000-h1266"
+          alt="Ruang Keluarga (Sisi 1)"><img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDl6NyyLHaJgSBVJv2--P7iNBjcz0GQV-xzp0papjqdV5lM1qcQLHPo2qQegV1ZDmyH4pwgvFY3EWWPrAHOxmWtSYwNBzmsMP16Y6pcrX5Nq9tuNqU3IzUIsrF14gX0onOhXtV1u-NYupmRaJhCKoW_2HOfxNJUTQjks0xQ0uVIKOPt0LvST7fnxfjZ-ll8r6hXF2VpWA78bkZL9AnTMU8B1UYF-CkkjDQ1dQKN7uk1HZ3IBTLC-c7Da59UoI3m31Se3LYx8B47qjmaAAMsrskZsBoxuyw9sK-B_2Fu1-0E4_3pix9CTtJXSL-43skaGMy8oOK0ePDZdHLCLqaiSLt8MEBEbpQKNlcSMhjPX1U2-YRzIOTarg3XQPgaK5fQ6En_ytrQEjp_Ge7595gwYn0NTxGIZDI7rBUpS9zdcjM7tKXMi4LmFs-8w_fPj-ITNv9TFu30z_LtMY-L8HwRcmZrImIcqmjhNxwU8-sLQNRuOGo15xcnSQY9OrgqEllmP0WwAE93SuuiBbW8DPmKCgKuiYn9By9AzeAPViBUKfpOwY81nDsyd_AfMRXVe5U05GFAXGQ6qQdGQGxN4s-rlhmyp7L4NFoOxHVG0fQQ9t0LRJOkqpZzcTdz-VEfgTi4xbBdu65UZ-5QTAH9wx0tUrGE54eus1aQj0vp7A75gZ_hoTOUPNMDpPs7rteXHkppCFpgMn9w1btg78IBK48sRbbX5LrHTR2FmWWDXBDuveAD-poJ8RjeHw13wqJJFtKSNqXkbOVzIWrgetUf-gpJl2IhYi337913o0rllysjZBy1926p098YacDBN1AB8maV0HdPdXGYEWfzHS76eA5X7G6XerNzEOtxZqggIAUa5Knb_QvtcPPDwQ8PnrRubnt1ua9kK2PoUUoD7YOhgx1zNBkzLfChZB5qKpQLK10id-9Sa07f-Tm27AXFyr2DC-3d1PsdRpkNKCg9KmfRzF0GD2ndX5x_dpK-acQu0GSuK1d8QrsXTglc6DHXw_Ymt2FFaDAn2JkZlRb0sbLQkoEDECjfYZqhET_JKP_Btr78uVnw4nHO_c1Lwxk08npiJk7TNGX0LjppeuiCOBtzXm_wpahtni1IqiXa1mDzzCaAGtd4daIilwbfpwYjejEi_u6tF1Mf3L8U_E8p0S7L3E7GuuSqsRZV1RipzdmMVBvEWK18h6lODbc1H3YJLAOEcBHb341dTaWJ25CINC-3v5i7Jvw-w8HEBRckE-TE1A_spf058v6Gj21YENXAXHhDaI5j5NIL4-jHotzKSrW9bLP5659gVKu_IDuMtXfFR2Y8XCI6ZxJuinb1uPJP5SkwTAJHssdFqvW-jqa0bjEqSvMuHoWLgiDD8AOF5TXuZHcf_GJKsNyBaZIbZYzoTy75UKr1dwCixxS21cHHuXAkbZvJG5Ytbg9BCz8o2GmGzghuZuS_WXWrP3Jr7nXup5Iw1WWVhUr2oPkFtXeRREcOk_p5GHm6djc-4thX2SuErjl5M2rAP-kYMRiPcO_GEF6eX_T03H-4pQg2r8z5vWduv2G7w-6sEuFV_=w2000-h1266"
+            alt="Ruang Keluarga (Sisi 1)" style="position: absolute; left: 0; top: 0;"></a>
+        <a data-fancybox="room-gallery"
+          href="https://lh3.googleusercontent.com/fife/AGXqzDmrQ7DSH7-55yC7aLxWnLEp1iIHSzwldUQrxnjv4aqCyhpViGVKsE5uOJZ8uQrXvYANCpAF-dZbCyxTmsWT13DaKDPxQ2yArW6TLL-X4JHXKPSLsAypK0kjxbYkzS7T4S3LLQxyGahuTbunsp3aKGrm00L0RmRlc0q2hRM3xiFXhMdt23PHoAhvQXK-N_bhp_JY8steOlAfl6oGzaYuu-tvJsr4UVOMcPOZSbtyyWGxBYSYakHAE5iZmmydkSae42PJYk-pe5ljEVPe3Omd7vjD2jszEgY57HWr7soUBoc8ZAIgrhIJhR1_aNDs6d28VRbxzU_JKT4uEfcKMuy2zk6VkGhSPJHXsMLUk_goE7Q8QwR9wnmRIZbEMPOUvqypeMTsYYA10mYrmRrqNShqcD9u3lyNg56Ncr9dVh0kSi0tgav4n5WVWObzyGyH5KIM39iZZuCMhIBnzK8rJoaw89lnaqM6xZIR_TkXYpE2ntPt_TGxCr-b9TLaGF1qvryokuYJQ5lZewjmGadxmAwwFf6tAX759TW2ohodQj_SBHyIlTOlIQyBvZtGlxbtfp8vlvcj-D2aHADi9sRcshjDKy0_JWrut8UWANzYhf-HN_sTMp8IcPtiG1tHO7xVzXZk58dzD8lqSxiJ5JXL_eSEyM7zZrAvTY0ko9AEAkLshEj2d43l4eahUV_RxzKCeyI8RINzG-XXJvC5M8Odx80bmY1dZlitGCA8UjM8FYHUs1eauI6cV05JVa_Z2KeekNSyQ8IKFiEJjMbz3ie2OqiX312jaikwVx5Y4GlCaQqEy0FQdW__MoTOQ2Cay5UU6bTAR_cl6JWiEZanvg8BL-BRcZ1qfzd1laOEI8PzBCfqEXPb6WDexx2SHD6ymTM48nKMm9s9nnvB8O2-HGZT2BOMRXpVVc3ziVMhSg7YddN1BoXKw7jiiLfuVtHTT4rUfmGval_zn3AygSP1ACwrZwn9Q2a_qJf13x1Bam_zQwHv7pIFXXCGeAMEn0_XKjGWZUD5AjdD8dyZa-Jn8ls-rfpz3O8uyPqeCZ43JXgcQY2PN6S9IHUpYTypuo5zLgnlu7yOPUdYGyU7tKIgEEghIumt62Dpl9LZwUotfTc81Z08edtqSWGcQMHhWJ1W3x1bK-SdnWyQJZdnZlWx7QJGde3_55KqrXP0K1IgXorN-iShVFoJLURQ74nZPQCpg5gA1rSe-SGb7LxgNY2gd6Ljf3if2LdzfvY0a-L9ha_dAxUgerVBFlmOvsEA0EQur1swsOTZ--q7uMJ_8GOk5lUdSrxPJrXHIWzYArO2UcjYzzzPw9flQq0w2OkRoq8jhO-JMLvAtcxKBunFEpAcNedhP27kmXr8wZRUCmFHhOT2aXKowiTa8fWbbmh8i6O0VbVHk2DYAS0LMvpALPPhBwoVhT_RdNIwcgtd98kZR08VP_wdw8QysXUW8uVl-Uj2xNewyu_TCIyrQpUEBGLi0WEhfo6lCGiH-Ee9KeGkIjf9QXcHON6drvWYnykXRCjBIatHIdtJN8YDhZK3Mkf8rl0h2znhqgqhHkOP=w2000-h1266"
+          alt="Ruang Keluarga (Sisi 2)"><img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDmrQ7DSH7-55yC7aLxWnLEp1iIHSzwldUQrxnjv4aqCyhpViGVKsE5uOJZ8uQrXvYANCpAF-dZbCyxTmsWT13DaKDPxQ2yArW6TLL-X4JHXKPSLsAypK0kjxbYkzS7T4S3LLQxyGahuTbunsp3aKGrm00L0RmRlc0q2hRM3xiFXhMdt23PHoAhvQXK-N_bhp_JY8steOlAfl6oGzaYuu-tvJsr4UVOMcPOZSbtyyWGxBYSYakHAE5iZmmydkSae42PJYk-pe5ljEVPe3Omd7vjD2jszEgY57HWr7soUBoc8ZAIgrhIJhR1_aNDs6d28VRbxzU_JKT4uEfcKMuy2zk6VkGhSPJHXsMLUk_goE7Q8QwR9wnmRIZbEMPOUvqypeMTsYYA10mYrmRrqNShqcD9u3lyNg56Ncr9dVh0kSi0tgav4n5WVWObzyGyH5KIM39iZZuCMhIBnzK8rJoaw89lnaqM6xZIR_TkXYpE2ntPt_TGxCr-b9TLaGF1qvryokuYJQ5lZewjmGadxmAwwFf6tAX759TW2ohodQj_SBHyIlTOlIQyBvZtGlxbtfp8vlvcj-D2aHADi9sRcshjDKy0_JWrut8UWANzYhf-HN_sTMp8IcPtiG1tHO7xVzXZk58dzD8lqSxiJ5JXL_eSEyM7zZrAvTY0ko9AEAkLshEj2d43l4eahUV_RxzKCeyI8RINzG-XXJvC5M8Odx80bmY1dZlitGCA8UjM8FYHUs1eauI6cV05JVa_Z2KeekNSyQ8IKFiEJjMbz3ie2OqiX312jaikwVx5Y4GlCaQqEy0FQdW__MoTOQ2Cay5UU6bTAR_cl6JWiEZanvg8BL-BRcZ1qfzd1laOEI8PzBCfqEXPb6WDexx2SHD6ymTM48nKMm9s9nnvB8O2-HGZT2BOMRXpVVc3ziVMhSg7YddN1BoXKw7jiiLfuVtHTT4rUfmGval_zn3AygSP1ACwrZwn9Q2a_qJf13x1Bam_zQwHv7pIFXXCGeAMEn0_XKjGWZUD5AjdD8dyZa-Jn8ls-rfpz3O8uyPqeCZ43JXgcQY2PN6S9IHUpYTypuo5zLgnlu7yOPUdYGyU7tKIgEEghIumt62Dpl9LZwUotfTc81Z08edtqSWGcQMHhWJ1W3x1bK-SdnWyQJZdnZlWx7QJGde3_55KqrXP0K1IgXorN-iShVFoJLURQ74nZPQCpg5gA1rSe-SGb7LxgNY2gd6Ljf3if2LdzfvY0a-L9ha_dAxUgerVBFlmOvsEA0EQur1swsOTZ--q7uMJ_8GOk5lUdSrxPJrXHIWzYArO2UcjYzzzPw9flQq0w2OkRoq8jhO-JMLvAtcxKBunFEpAcNedhP27kmXr8wZRUCmFHhOT2aXKowiTa8fWbbmh8i6O0VbVHk2DYAS0LMvpALPPhBwoVhT_RdNIwcgtd98kZR08VP_wdw8QysXUW8uVl-Uj2xNewyu_TCIyrQpUEBGLi0WEhfo6lCGiH-Ee9KeGkIjf9QXcHON6drvWYnykXRCjBIatHIdtJN8YDhZK3Mkf8rl0h2znhqgqhHkOP=w2000-h1266"
+            alt="Ruang Keluarga (Sisi 2)" style="position: absolute; left: 0; top: 0;"></a>
+        <a data-fancybox="room-gallery"
+          href="https://lh3.googleusercontent.com/fife/AGXqzDmHOG0dXz0swGI4ldEPqZgzuECPjvj_vlLg10DhfSqzYYCsDksAYHLPsteNwq_BdoNDZQnMeE_e5UT6tacGmLB3VDWPO4tajV8wUqcj7lg60vD1-XZhIQ749qFe1MJZM48JAyiNV1IycjV4e36bXYdhNTVeAEj3yp1XuiUVdGrpaD7NuIj-CCD0pdoDmjbCiuSUDADY1GzGCAKbqvVXqQ3k4UnjKg-VLCDqrjL6TMOUENcCuHTXNpVZQQleosaVywNuHR_ABwz7Rwftq2ZAlTzp2xjBbHgVK1r-ilBtprsxv_bIGShoARPI-UdPtp6kNBPgmpsRZumEF3ZnUTLCnrQQSZPKmRlPPRZBWi9lNMNu8Vxdogo7LI7pUSldgq27scDmUXy-XwOnFsgJ7f1hpLfWqvOiTsJ2VdQZN3_fiubcyteytw9FCF4K-fgS2TO6CcfOxXQY1t3Eu5lLDuZZCvahJXuhm4z5jkdR0B20NVFOvDaRdb573O1XyAyq7u6gUeV4Hv5gkYiDazTn_OCmdbjWM6Zn1zo_YR66F1Q9-j1bjCtx1bhgJPjH1Q3oCV7FuocYVqQHqDgK84VCgQxbmllkn0D7fHgMptdlNmykgh-2uoHH5PY6mg1eCCF_QiATAfutxbnFisNuxbKQCa3hZZcV14bXrvdKklJtnes1nL5zCs5wy0akv6wtOba6achjUqoXMsxd2yWKfakgK926EUV1_WgO-3gqhdbpFltjrvYYDyzW3UbCkOOFZBdepbTPXOnKqHejQNiFPkUmOXI1SzWVRbmPzUzHopqd9zumbkLK4yNjT6Dgbrf6K7XZzxSxd03OFwJZXDeuPiG7VVx5_4cq5-2kgM6YMAoFrIXwqVO2d-6a-xOH2YWnXLEYTR0sGrPeZ_zVFSbfdTfCJyu8X0NNQXOjOoYka0NgQ5-5B_ROADOIPQlu2eTS6QTAapkrzyK8oR_6nWBwqwSRwepxngcdnBz4itXmuUxQpFPSGAB0bm4ht3sSiNMyCQBXZWSCsQIEaOGd8fmb8wR-n41aZSm4pSI6t1_vIkBoHf8MXknGY2F60RlBGCyVQ0U9HoCO_O09fd-5bUF8CbNDOIbz3_mgpOSERGGFCtjFeO0czbDxOuubQXC2X72qtU50ZXFIbRwOiJu_aRQi16rbp3YIta8pBVc18VaMf5Ax4Zwn0jK-_UB7nS6KVUBhCESjngvynQepir82InWQUyw5D8piL25_5MtaG7nwXtkuNhCERgR5VJDA-2me3y8s-LOoPTF4_86fy8NXbXmx49OEfhSYRr7SYmCrtE6CMe4JkWvcVDEgzv1Zq2cp95wYa8zriNRCis6jtkzv3t9pvuzltjXfb-RgdGFFidnYGe3KLg9zCuG-m9THu7TJ7ZFVqNP_re1FRj3T1uj1h_uHFhgiXOCtFYeqh4Nv6D9RPw3yhZBqmglz6npfhcKtfqiE-ddfqJsHr40FakYIGEhoma3NO50D7LMhyVdTJh2fIaS3M43gV0dFrc5uwfQkDTxr-wGT33UgGb_n0hFAak36aXcsPlO_jRwPjQg3=w2000-h1266"
+          alt="Ruang Keluarga (Sisi 3)"><img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDmHOG0dXz0swGI4ldEPqZgzuECPjvj_vlLg10DhfSqzYYCsDksAYHLPsteNwq_BdoNDZQnMeE_e5UT6tacGmLB3VDWPO4tajV8wUqcj7lg60vD1-XZhIQ749qFe1MJZM48JAyiNV1IycjV4e36bXYdhNTVeAEj3yp1XuiUVdGrpaD7NuIj-CCD0pdoDmjbCiuSUDADY1GzGCAKbqvVXqQ3k4UnjKg-VLCDqrjL6TMOUENcCuHTXNpVZQQleosaVywNuHR_ABwz7Rwftq2ZAlTzp2xjBbHgVK1r-ilBtprsxv_bIGShoARPI-UdPtp6kNBPgmpsRZumEF3ZnUTLCnrQQSZPKmRlPPRZBWi9lNMNu8Vxdogo7LI7pUSldgq27scDmUXy-XwOnFsgJ7f1hpLfWqvOiTsJ2VdQZN3_fiubcyteytw9FCF4K-fgS2TO6CcfOxXQY1t3Eu5lLDuZZCvahJXuhm4z5jkdR0B20NVFOvDaRdb573O1XyAyq7u6gUeV4Hv5gkYiDazTn_OCmdbjWM6Zn1zo_YR66F1Q9-j1bjCtx1bhgJPjH1Q3oCV7FuocYVqQHqDgK84VCgQxbmllkn0D7fHgMptdlNmykgh-2uoHH5PY6mg1eCCF_QiATAfutxbnFisNuxbKQCa3hZZcV14bXrvdKklJtnes1nL5zCs5wy0akv6wtOba6achjUqoXMsxd2yWKfakgK926EUV1_WgO-3gqhdbpFltjrvYYDyzW3UbCkOOFZBdepbTPXOnKqHejQNiFPkUmOXI1SzWVRbmPzUzHopqd9zumbkLK4yNjT6Dgbrf6K7XZzxSxd03OFwJZXDeuPiG7VVx5_4cq5-2kgM6YMAoFrIXwqVO2d-6a-xOH2YWnXLEYTR0sGrPeZ_zVFSbfdTfCJyu8X0NNQXOjOoYka0NgQ5-5B_ROADOIPQlu2eTS6QTAapkrzyK8oR_6nWBwqwSRwepxngcdnBz4itXmuUxQpFPSGAB0bm4ht3sSiNMyCQBXZWSCsQIEaOGd8fmb8wR-n41aZSm4pSI6t1_vIkBoHf8MXknGY2F60RlBGCyVQ0U9HoCO_O09fd-5bUF8CbNDOIbz3_mgpOSERGGFCtjFeO0czbDxOuubQXC2X72qtU50ZXFIbRwOiJu_aRQi16rbp3YIta8pBVc18VaMf5Ax4Zwn0jK-_UB7nS6KVUBhCESjngvynQepir82InWQUyw5D8piL25_5MtaG7nwXtkuNhCERgR5VJDA-2me3y8s-LOoPTF4_86fy8NXbXmx49OEfhSYRr7SYmCrtE6CMe4JkWvcVDEgzv1Zq2cp95wYa8zriNRCis6jtkzv3t9pvuzltjXfb-RgdGFFidnYGe3KLg9zCuG-m9THu7TJ7ZFVqNP_re1FRj3T1uj1h_uHFhgiXOCtFYeqh4Nv6D9RPw3yhZBqmglz6npfhcKtfqiE-ddfqJsHr40FakYIGEhoma3NO50D7LMhyVdTJh2fIaS3M43gV0dFrc5uwfQkDTxr-wGT33UgGb_n0hFAak36aXcsPlO_jRwPjQg3=w2000-h1266"
+            alt="Ruang Keluarga (Sisi 3)" style="position: absolute; left: 0; top: 0;"></a>
+        <a data-fancybox="room-gallery"
+          href="https://lh3.googleusercontent.com/fife/AGXqzDksyYqjzeMdGYdUXesLOQs2vN9NtdQaA3ns9SQVM7xJRdXbfXDZjZTtKNXGpypFq0uG18VxSciNQfpkYysp3t60XoVf3EyRGUktCfF5YcFT1LeAmuJ0akoGwrlIyRSoBiHzXLVc7YoPx65K4vyxX1BYjL4Y0gWLW9xptQD5MyCnc2Y5llnSrBh9sO2OpvOPGm2sGoxqVLmEjm1CXJjlUqwF0rQVJ0bHVPLLp0iEAF5nUjbv3wU8EAbNn1TyQWX-XBr0kYeW-TaFkZBN-Y3ziybVjcwdFyDBO73a759WAnz40wZd-RsECprYT2tundKjBvjUs4GzDhfzsWQFitFlOH9P26ms9JDkFacfe_KNrih9lczkaRVirp6WR9dooX3Emax2TZ08ot6VHbS01rESngq96hElg2o0iCL7tZ2_58crfhc4RPrwYjUKqzTTaNU43ElOR2L_LvuoB30s8vl5UrL1Bynz4SOwVkYv5fVSOTBoUzLhrs0z9otQF5ng-Tz7zVXT-69f6LdAjfMXWAKwjUd3QhEOfimoJrh4iq1gg4mkyzI5qmii6lHp0mOWfjjIA9f2XfLs6SN0mqtJpPwuPakMFWIn7gR-lR8kKf5MSn8ZYruWXy7KPtMoE9-T2d7ErYwvfzJMJFXLLv7Ah6FjkFvTXBBxZliL79sFnoBvwTv39kDMNjdXkc2HVXT28SP0VxhhJupmfGRHxdYes3ltfsUUOGTHkQ16QY8US7ZRhv9iyA83jySUWwSzSe4EDE_S24vgLawXhj8VVHj5V0CyxvIO8-nFmyUECevOEBvKIc8Wq9KMoeevcuM9ck2hanHSbHUGLcu5W7Ch9MPLBYWyiyJJpp70eRP6xNjvGqKGbN8T2oBFiPWT_N1IzSjTaDZAff6DbxzFIMpZrdx-2OiIzYkDa8nm1b0CCsYvpgIzlXv04tjjHkaFmqYaWQYZ9aSV3qGP28B1ZJ6YLTDKpL_o22IwG9gNt591Lw2FiI0o_FWl6x5SY9Gb7ueUZD-Q2zQCY2VdKRWwkNUTQrj6oc_adtymw11qC90sDOW5eiOIpnq3PpWK8Vv2_pp9Z4ojtudzDu9MjkE_kSp2M7EW5zA1SDirWs2ymR2VjVo1ookC1NdFsdrxleiwSjhQoa88XmT86it6R7auIJqQg23W-vg2B0Fmb-sCUYkKVm64O8q5dwUTN0yxK2GyqbP4-EH2rFUfbK3xQ_DNVpnihYrvknevquQJe-eadC76pXaUx0In3zKHjng7qXBt6SnAQBckPd9RXIioGHgRu0zI8zyd2YWu7BEz6GpP_Z_y2Vi4bX51aUw5F0SGoOa5I6AsogQa-J_gDGTMmw_25RAlA0c003_VyFPwp5ycUJQ7rAi9mPZ1CFqtn_9t31Dmo2pjL8vgeeNjNXLJ3xxfEpLs-sn57HFFoHCeU8xMif5g58J7N3ghvAhY5fUDkM-qNHl7tbJCZeokb29f4TBDcFSKXbwohkqDo0wmoFFL9sYRwyVZXlFI-iPKAOSQL2YtVxduOu9somrJMrllbTe9LlJeBj1vRCCSh2xlPND0=w2000-h1354"
+          alt="Ruang Keluarga (Sisi 4)"><img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDksyYqjzeMdGYdUXesLOQs2vN9NtdQaA3ns9SQVM7xJRdXbfXDZjZTtKNXGpypFq0uG18VxSciNQfpkYysp3t60XoVf3EyRGUktCfF5YcFT1LeAmuJ0akoGwrlIyRSoBiHzXLVc7YoPx65K4vyxX1BYjL4Y0gWLW9xptQD5MyCnc2Y5llnSrBh9sO2OpvOPGm2sGoxqVLmEjm1CXJjlUqwF0rQVJ0bHVPLLp0iEAF5nUjbv3wU8EAbNn1TyQWX-XBr0kYeW-TaFkZBN-Y3ziybVjcwdFyDBO73a759WAnz40wZd-RsECprYT2tundKjBvjUs4GzDhfzsWQFitFlOH9P26ms9JDkFacfe_KNrih9lczkaRVirp6WR9dooX3Emax2TZ08ot6VHbS01rESngq96hElg2o0iCL7tZ2_58crfhc4RPrwYjUKqzTTaNU43ElOR2L_LvuoB30s8vl5UrL1Bynz4SOwVkYv5fVSOTBoUzLhrs0z9otQF5ng-Tz7zVXT-69f6LdAjfMXWAKwjUd3QhEOfimoJrh4iq1gg4mkyzI5qmii6lHp0mOWfjjIA9f2XfLs6SN0mqtJpPwuPakMFWIn7gR-lR8kKf5MSn8ZYruWXy7KPtMoE9-T2d7ErYwvfzJMJFXLLv7Ah6FjkFvTXBBxZliL79sFnoBvwTv39kDMNjdXkc2HVXT28SP0VxhhJupmfGRHxdYes3ltfsUUOGTHkQ16QY8US7ZRhv9iyA83jySUWwSzSe4EDE_S24vgLawXhj8VVHj5V0CyxvIO8-nFmyUECevOEBvKIc8Wq9KMoeevcuM9ck2hanHSbHUGLcu5W7Ch9MPLBYWyiyJJpp70eRP6xNjvGqKGbN8T2oBFiPWT_N1IzSjTaDZAff6DbxzFIMpZrdx-2OiIzYkDa8nm1b0CCsYvpgIzlXv04tjjHkaFmqYaWQYZ9aSV3qGP28B1ZJ6YLTDKpL_o22IwG9gNt591Lw2FiI0o_FWl6x5SY9Gb7ueUZD-Q2zQCY2VdKRWwkNUTQrj6oc_adtymw11qC90sDOW5eiOIpnq3PpWK8Vv2_pp9Z4ojtudzDu9MjkE_kSp2M7EW5zA1SDirWs2ymR2VjVo1ookC1NdFsdrxleiwSjhQoa88XmT86it6R7auIJqQg23W-vg2B0Fmb-sCUYkKVm64O8q5dwUTN0yxK2GyqbP4-EH2rFUfbK3xQ_DNVpnihYrvknevquQJe-eadC76pXaUx0In3zKHjng7qXBt6SnAQBckPd9RXIioGHgRu0zI8zyd2YWu7BEz6GpP_Z_y2Vi4bX51aUw5F0SGoOa5I6AsogQa-J_gDGTMmw_25RAlA0c003_VyFPwp5ycUJQ7rAi9mPZ1CFqtn_9t31Dmo2pjL8vgeeNjNXLJ3xxfEpLs-sn57HFFoHCeU8xMif5g58J7N3ghvAhY5fUDkM-qNHl7tbJCZeokb29f4TBDcFSKXbwohkqDo0wmoFFL9sYRwyVZXlFI-iPKAOSQL2YtVxduOu9somrJMrllbTe9LlJeBj1vRCCSh2xlPND0=w2000-h1354"
+            alt="Ruang Keluarga (Sisi 4)" style="position: absolute; left: 0; top: 0;"></a>
+        <a data-fancybox="room-gallery"
+          href="https://lh3.googleusercontent.com/fife/AGXqzDnD7OP7u65YtLI9GYxFkBIqQ4qLvT4Qv786TuRm7J_yhb7i7Dfw-wvbFY0_tNBKdMQV6VQHS0aeyVU8ZL0rSO_tYwxzM0CD1mPku6A_54a8kfIR3C5VvLbf2Yqz24POu1kJD34LdVlHcqk7dzspWioI_laMdy6Afoa1fSQwlgpzPEgSeVzgWLqb2fVcGj0bs0yzURmkNOoc5O_oGDtV6FVE6mcY7ORTmkm4zEC7XblwHt3lb_neh2AzJWQn1awk7a3nEtQcOWhmy09g2S-0cZ6_Pp3UHI0rJ0eqbwWSVruWOA6gKpfJNs9W98YszkVX1UAGUM8lJ4pJjcCHjOCHNKuuKcDpP_czDgDGLLFa9qLuIXXfExWcBO36Z_V2IVnrI3riZf6WGCTfqtwIoRUtrLhEFvM1kINcaFc29ppFR_PThC617xyUDdqEwf5HhdGzKozSwnUn-82kEjAX1bPAXfIrGMopdXRJhgqLgzImiDHihVnWmZJjeWvcT9IVJP_tgKN_JM6Lg_eX4Fda1PGFSREmK4AwaZxYFsFYLj2A8lk8EGoPQjjw1sNbttLHDYZZBePv0B_6Ynzt7YTWwtqjqQouGEsQCSxtM6p3g5kOFWCF2ajX_qmEKmhw8iuXV0BG47rAdeyHkm7shBmZU-_18qrkNboYoV34eVJAGaN7CS7NAFbrPvQ49sLJBG4aF-MKpRRNFaGaJwxS0SbpqLPIemB10bEDhMpUnaQqmaIquHTDZA1r_9H-TVmIVApt5O5xQv5Dr4cT6u3H_YcjbOcjgdherc_pTGn7EgXyjzKO6xRv6XRLvMGUHVKNd7oPmHd2Yc2tX_Bmxj8ab2GhRNyfaSSidRJ-0VxBqNLpGAZWqGMGcWfRRtVnDrXXjpACjOroVcPTErVaJu2W0bhjdNlZgCa3V1rp5uOYHEVR-x6zr5qxBS0oX6DXbFfXCGMEUf6nVBgYMe3ziVEkiw_FqXJxQPigsCS4G9MpYb4ERAbZdiRnTrBAVXitG4OFfX6E2s3SAh1Pi0sLwmjR7za19oXNXVRb_qO68V2Ql-nYQ797SBviKbrXwtg1byz2MlpRGyr6DbuLKJqrJe3FJFwXZX06WelFZEJZTufBATQWus4_HozR5rXMuop6NBx5_LRPz0JDf6j9Z-WJQyuW_p62iMLIKRiGCbhjv7XAGB_w_SB21hUgVard6fEudibIB7fKHyyyXWRHfLcjmUZy0KCyHBVh1mltbn9ho8Vo0GS61KnA__jpPVC29NeO1Rakf0bLiDcc3F5NRExGuCfyW7efeAu28S91CEKM7I7nWhxGoycQ0iHukwc_1wmGPzKeVzijuvmkoM0HEl1vbVl3o_YxzOGvJOJ7EK9mtZkxTudNOKUbk8esufK_WKf1Gt2jwmnp_QMraBvEZvorkTuA856FqoTCxCW3dvQC8V5TTRdF2QOUkpd55PGyDcTYIBouN-njRT18yb7qkJ1VygjeS2h7xvzowIjxSGdISbiKZX4wGIRX3eLuBdxRgXE5MK6Drr5Ytim8uubA2o_QNB1LSyyhug0LDeNQi-PV=w2000-h1354"
+          alt="Ruang Keluarga (Sisi 5)"><img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDnD7OP7u65YtLI9GYxFkBIqQ4qLvT4Qv786TuRm7J_yhb7i7Dfw-wvbFY0_tNBKdMQV6VQHS0aeyVU8ZL0rSO_tYwxzM0CD1mPku6A_54a8kfIR3C5VvLbf2Yqz24POu1kJD34LdVlHcqk7dzspWioI_laMdy6Afoa1fSQwlgpzPEgSeVzgWLqb2fVcGj0bs0yzURmkNOoc5O_oGDtV6FVE6mcY7ORTmkm4zEC7XblwHt3lb_neh2AzJWQn1awk7a3nEtQcOWhmy09g2S-0cZ6_Pp3UHI0rJ0eqbwWSVruWOA6gKpfJNs9W98YszkVX1UAGUM8lJ4pJjcCHjOCHNKuuKcDpP_czDgDGLLFa9qLuIXXfExWcBO36Z_V2IVnrI3riZf6WGCTfqtwIoRUtrLhEFvM1kINcaFc29ppFR_PThC617xyUDdqEwf5HhdGzKozSwnUn-82kEjAX1bPAXfIrGMopdXRJhgqLgzImiDHihVnWmZJjeWvcT9IVJP_tgKN_JM6Lg_eX4Fda1PGFSREmK4AwaZxYFsFYLj2A8lk8EGoPQjjw1sNbttLHDYZZBePv0B_6Ynzt7YTWwtqjqQouGEsQCSxtM6p3g5kOFWCF2ajX_qmEKmhw8iuXV0BG47rAdeyHkm7shBmZU-_18qrkNboYoV34eVJAGaN7CS7NAFbrPvQ49sLJBG4aF-MKpRRNFaGaJwxS0SbpqLPIemB10bEDhMpUnaQqmaIquHTDZA1r_9H-TVmIVApt5O5xQv5Dr4cT6u3H_YcjbOcjgdherc_pTGn7EgXyjzKO6xRv6XRLvMGUHVKNd7oPmHd2Yc2tX_Bmxj8ab2GhRNyfaSSidRJ-0VxBqNLpGAZWqGMGcWfRRtVnDrXXjpACjOroVcPTErVaJu2W0bhjdNlZgCa3V1rp5uOYHEVR-x6zr5qxBS0oX6DXbFfXCGMEUf6nVBgYMe3ziVEkiw_FqXJxQPigsCS4G9MpYb4ERAbZdiRnTrBAVXitG4OFfX6E2s3SAh1Pi0sLwmjR7za19oXNXVRb_qO68V2Ql-nYQ797SBviKbrXwtg1byz2MlpRGyr6DbuLKJqrJe3FJFwXZX06WelFZEJZTufBATQWus4_HozR5rXMuop6NBx5_LRPz0JDf6j9Z-WJQyuW_p62iMLIKRiGCbhjv7XAGB_w_SB21hUgVard6fEudibIB7fKHyyyXWRHfLcjmUZy0KCyHBVh1mltbn9ho8Vo0GS61KnA__jpPVC29NeO1Rakf0bLiDcc3F5NRExGuCfyW7efeAu28S91CEKM7I7nWhxGoycQ0iHukwc_1wmGPzKeVzijuvmkoM0HEl1vbVl3o_YxzOGvJOJ7EK9mtZkxTudNOKUbk8esufK_WKf1Gt2jwmnp_QMraBvEZvorkTuA856FqoTCxCW3dvQC8V5TTRdF2QOUkpd55PGyDcTYIBouN-njRT18yb7qkJ1VygjeS2h7xvzowIjxSGdISbiKZX4wGIRX3eLuBdxRgXE5MK6Drr5Ytim8uubA2o_QNB1LSyyhug0LDeNQi-PV=w2000-h1354"
+            alt="Ruang Keluarga (Sisi 5)" style="position: absolute; left: 0; top: 0;"></a>
+      </span>
+    </div>
+    <div class="slideshow-container">
+      <span class="bedroom-text">
+        BEDROOM
+      </span>
+      <span class="overlay-box"
+        style="position: absolute; left: 0; bottom: 0%; width: 100vw; height: 68px; background-color: #000; z-index: 3; opacity: 0.5"></span>
+      <span class="bedroom">
+        <a data-fancybox="room-gallery"
+          href="https://lh3.googleusercontent.com/fife/AGXqzDmeVqv-RVrxw6Zs1IuU6imlz99a9B9ogSR4AQeAOxOhwt-FUabT8e-KTuZf3kHa5SudcNQ3accJZrY7qJ0oHVLthmTga29b2E3j7KLPzLq7xOQQCf3GdjLhWS2GsEPVJi1azKaj3mxTKP5wjois5MtTqmFdF1HFoQhNeyJ2PXtT4KHzXqfx4KbmnN4njhjzJaRj6SHjyoAOdYsxAsdvc7fVQ0TMhGdgF7taZ60kdm9BmB1rWC3K_q-kvff8xC7k2b0wgzAPiintRCfK_ZRt9-w5SxPnBWaqzw5S9W4dTX5QTLxKKxW50vTK4WdkkNMb3ZEluQ8CflcQlQMoup5HeB6iOj12SrrplFrG8EkEwkCW52qU8PQeyMWUPhyBiojm27vwniCYgSwJtNwZh-jOjdGs9iU72nyfyAp61bw8R5x3S3hiYJtNBNPqsJyhUgaaGF-AYptk_txZd84sXtl_MVPhALKoMkre8zfocvp_B_omY51jkHJ9I6iBC2os4DQ8czQeM3SAdb0NCQgVuQcblDFw-juhznaYaarwrTc8L9uVbol3xWbu_v9HuDQpI4esRyOWRUrb4a1DZK0qtyogo3cOg-jSJoDrBb1X_oTaUR6JblAGiCyx4iAvnkXVcH0m3Y47DDl67C9TkcnmBJQrPx2ZgeYF8jfeic_tCuOqrIH-bRkeTjKv9oF2T1_8FuNolb-b9dmqRb27GrIwZ0Tl5cXqcyaklMlIHiJueOZ68AZ_HpMqfF7hzI5Xj84_8rLLO-qWRQYvrbTpMIEJSNRSZMmP4yp_-1LoP3R4r9Encdr93BoksB8hwDlzbCkq12K8UZTvo_khXCMwWYsqfmziqBLZ1yT-icdae3UOvcLURywcG1EBPgu8niaaM6Yc-Szm9SMWHKYcp13e0l66LX4b0r1uQmHJXdEn9BnJ4cXYt3KCqWU3vy_z0JDno988QBbmP5mEZg4X01mJz-BxIZnmxF5mSZchn1oA0GUtpnjsLwx_UC1BdmGouMuJj4sWmywytCSrswFvE3laLYOdD0dkkalXP1eMPfGK-LuFvO9COr4eiYn0XZ0wg36iKN_pTirQs-6uG22IXFVnxz83Qw_NgATjgMkvrdM1GET0tIjVxzQ2u5VuzJmbB-lO7MXBTICOp4sj8zIY4jO8Dd5avGDfZCHkji_TzsRobSKSoIOlppgFDB1mm5uGUuASrWZGGouQR37BuewT58af66K5Z9eEc-8UznV45YJ1p0IX87oLoK_y5O9ue6PF0oymV9yh746wxbIuRrdGm_WCPWxiOlDt5SLJvMv7S0RaaEMwsRw68Bk4PCPEuULdE_kGxMLfQT-wmmjHs2kppPwofnoYaKCOPBjJqLKF6SYmIfXd473nCtsQmvx1QkJ61WPiiWzkhe-5m_580OuOXQz6p_kFzxv5H3wuZvfTPS8kDBrEz6mjmOujMjdIMVH_lc7shqT_15CkS3ArM-iro1_9OR-KJjOz6c0gvcU9AV5RkUvdG94hGU4c4PXilibn1eFvWxABZvOucRl489hiWtTStbH8XqDm6EwEJcbX=w2000-h1266"
+          alt="Ruang Tidur (Sisi 1)"><img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDmeVqv-RVrxw6Zs1IuU6imlz99a9B9ogSR4AQeAOxOhwt-FUabT8e-KTuZf3kHa5SudcNQ3accJZrY7qJ0oHVLthmTga29b2E3j7KLPzLq7xOQQCf3GdjLhWS2GsEPVJi1azKaj3mxTKP5wjois5MtTqmFdF1HFoQhNeyJ2PXtT4KHzXqfx4KbmnN4njhjzJaRj6SHjyoAOdYsxAsdvc7fVQ0TMhGdgF7taZ60kdm9BmB1rWC3K_q-kvff8xC7k2b0wgzAPiintRCfK_ZRt9-w5SxPnBWaqzw5S9W4dTX5QTLxKKxW50vTK4WdkkNMb3ZEluQ8CflcQlQMoup5HeB6iOj12SrrplFrG8EkEwkCW52qU8PQeyMWUPhyBiojm27vwniCYgSwJtNwZh-jOjdGs9iU72nyfyAp61bw8R5x3S3hiYJtNBNPqsJyhUgaaGF-AYptk_txZd84sXtl_MVPhALKoMkre8zfocvp_B_omY51jkHJ9I6iBC2os4DQ8czQeM3SAdb0NCQgVuQcblDFw-juhznaYaarwrTc8L9uVbol3xWbu_v9HuDQpI4esRyOWRUrb4a1DZK0qtyogo3cOg-jSJoDrBb1X_oTaUR6JblAGiCyx4iAvnkXVcH0m3Y47DDl67C9TkcnmBJQrPx2ZgeYF8jfeic_tCuOqrIH-bRkeTjKv9oF2T1_8FuNolb-b9dmqRb27GrIwZ0Tl5cXqcyaklMlIHiJueOZ68AZ_HpMqfF7hzI5Xj84_8rLLO-qWRQYvrbTpMIEJSNRSZMmP4yp_-1LoP3R4r9Encdr93BoksB8hwDlzbCkq12K8UZTvo_khXCMwWYsqfmziqBLZ1yT-icdae3UOvcLURywcG1EBPgu8niaaM6Yc-Szm9SMWHKYcp13e0l66LX4b0r1uQmHJXdEn9BnJ4cXYt3KCqWU3vy_z0JDno988QBbmP5mEZg4X01mJz-BxIZnmxF5mSZchn1oA0GUtpnjsLwx_UC1BdmGouMuJj4sWmywytCSrswFvE3laLYOdD0dkkalXP1eMPfGK-LuFvO9COr4eiYn0XZ0wg36iKN_pTirQs-6uG22IXFVnxz83Qw_NgATjgMkvrdM1GET0tIjVxzQ2u5VuzJmbB-lO7MXBTICOp4sj8zIY4jO8Dd5avGDfZCHkji_TzsRobSKSoIOlppgFDB1mm5uGUuASrWZGGouQR37BuewT58af66K5Z9eEc-8UznV45YJ1p0IX87oLoK_y5O9ue6PF0oymV9yh746wxbIuRrdGm_WCPWxiOlDt5SLJvMv7S0RaaEMwsRw68Bk4PCPEuULdE_kGxMLfQT-wmmjHs2kppPwofnoYaKCOPBjJqLKF6SYmIfXd473nCtsQmvx1QkJ61WPiiWzkhe-5m_580OuOXQz6p_kFzxv5H3wuZvfTPS8kDBrEz6mjmOujMjdIMVH_lc7shqT_15CkS3ArM-iro1_9OR-KJjOz6c0gvcU9AV5RkUvdG94hGU4c4PXilibn1eFvWxABZvOucRl489hiWtTStbH8XqDm6EwEJcbX=w2000-h1266"
+            alt="Ruang Tidur (Sisi 1)" style="position: absolute; left: 0; top: 0;"></a>
+        <a data-fancybox="room-gallery"
+          href="https://lh3.googleusercontent.com/fife/AGXqzDmeVqv-RVrxw6Zs1IuU6imlz99a9B9ogSR4AQeAOxOhwt-FUabT8e-KTuZf3kHa5SudcNQ3accJZrY7qJ0oHVLthmTga29b2E3j7KLPzLq7xOQQCf3GdjLhWS2GsEPVJi1azKaj3mxTKP5wjois5MtTqmFdF1HFoQhNeyJ2PXtT4KHzXqfx4KbmnN4njhjzJaRj6SHjyoAOdYsxAsdvc7fVQ0TMhGdgF7taZ60kdm9BmB1rWC3K_q-kvff8xC7k2b0wgzAPiintRCfK_ZRt9-w5SxPnBWaqzw5S9W4dTX5QTLxKKxW50vTK4WdkkNMb3ZEluQ8CflcQlQMoup5HeB6iOj12SrrplFrG8EkEwkCW52qU8PQeyMWUPhyBiojm27vwniCYgSwJtNwZh-jOjdGs9iU72nyfyAp61bw8R5x3S3hiYJtNBNPqsJyhUgaaGF-AYptk_txZd84sXtl_MVPhALKoMkre8zfocvp_B_omY51jkHJ9I6iBC2os4DQ8czQeM3SAdb0NCQgVuQcblDFw-juhznaYaarwrTc8L9uVbol3xWbu_v9HuDQpI4esRyOWRUrb4a1DZK0qtyogo3cOg-jSJoDrBb1X_oTaUR6JblAGiCyx4iAvnkXVcH0m3Y47DDl67C9TkcnmBJQrPx2ZgeYF8jfeic_tCuOqrIH-bRkeTjKv9oF2T1_8FuNolb-b9dmqRb27GrIwZ0Tl5cXqcyaklMlIHiJueOZ68AZ_HpMqfF7hzI5Xj84_8rLLO-qWRQYvrbTpMIEJSNRSZMmP4yp_-1LoP3R4r9Encdr93BoksB8hwDlzbCkq12K8UZTvo_khXCMwWYsqfmziqBLZ1yT-icdae3UOvcLURywcG1EBPgu8niaaM6Yc-Szm9SMWHKYcp13e0l66LX4b0r1uQmHJXdEn9BnJ4cXYt3KCqWU3vy_z0JDno988QBbmP5mEZg4X01mJz-BxIZnmxF5mSZchn1oA0GUtpnjsLwx_UC1BdmGouMuJj4sWmywytCSrswFvE3laLYOdD0dkkalXP1eMPfGK-LuFvO9COr4eiYn0XZ0wg36iKN_pTirQs-6uG22IXFVnxz83Qw_NgATjgMkvrdM1GET0tIjVxzQ2u5VuzJmbB-lO7MXBTICOp4sj8zIY4jO8Dd5avGDfZCHkji_TzsRobSKSoIOlppgFDB1mm5uGUuASrWZGGouQR37BuewT58af66K5Z9eEc-8UznV45YJ1p0IX87oLoK_y5O9ue6PF0oymV9yh746wxbIuRrdGm_WCPWxiOlDt5SLJvMv7S0RaaEMwsRw68Bk4PCPEuULdE_kGxMLfQT-wmmjHs2kppPwofnoYaKCOPBjJqLKF6SYmIfXd473nCtsQmvx1QkJ61WPiiWzkhe-5m_580OuOXQz6p_kFzxv5H3wuZvfTPS8kDBrEz6mjmOujMjdIMVH_lc7shqT_15CkS3ArM-iro1_9OR-KJjOz6c0gvcU9AV5RkUvdG94hGU4c4PXilibn1eFvWxABZvOucRl489hiWtTStbH8XqDm6EwEJcbX=w2000-h1266"
+          alt="Ruang Tidur (Sisi 2)"><img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDmeVqv-RVrxw6Zs1IuU6imlz99a9B9ogSR4AQeAOxOhwt-FUabT8e-KTuZf3kHa5SudcNQ3accJZrY7qJ0oHVLthmTga29b2E3j7KLPzLq7xOQQCf3GdjLhWS2GsEPVJi1azKaj3mxTKP5wjois5MtTqmFdF1HFoQhNeyJ2PXtT4KHzXqfx4KbmnN4njhjzJaRj6SHjyoAOdYsxAsdvc7fVQ0TMhGdgF7taZ60kdm9BmB1rWC3K_q-kvff8xC7k2b0wgzAPiintRCfK_ZRt9-w5SxPnBWaqzw5S9W4dTX5QTLxKKxW50vTK4WdkkNMb3ZEluQ8CflcQlQMoup5HeB6iOj12SrrplFrG8EkEwkCW52qU8PQeyMWUPhyBiojm27vwniCYgSwJtNwZh-jOjdGs9iU72nyfyAp61bw8R5x3S3hiYJtNBNPqsJyhUgaaGF-AYptk_txZd84sXtl_MVPhALKoMkre8zfocvp_B_omY51jkHJ9I6iBC2os4DQ8czQeM3SAdb0NCQgVuQcblDFw-juhznaYaarwrTc8L9uVbol3xWbu_v9HuDQpI4esRyOWRUrb4a1DZK0qtyogo3cOg-jSJoDrBb1X_oTaUR6JblAGiCyx4iAvnkXVcH0m3Y47DDl67C9TkcnmBJQrPx2ZgeYF8jfeic_tCuOqrIH-bRkeTjKv9oF2T1_8FuNolb-b9dmqRb27GrIwZ0Tl5cXqcyaklMlIHiJueOZ68AZ_HpMqfF7hzI5Xj84_8rLLO-qWRQYvrbTpMIEJSNRSZMmP4yp_-1LoP3R4r9Encdr93BoksB8hwDlzbCkq12K8UZTvo_khXCMwWYsqfmziqBLZ1yT-icdae3UOvcLURywcG1EBPgu8niaaM6Yc-Szm9SMWHKYcp13e0l66LX4b0r1uQmHJXdEn9BnJ4cXYt3KCqWU3vy_z0JDno988QBbmP5mEZg4X01mJz-BxIZnmxF5mSZchn1oA0GUtpnjsLwx_UC1BdmGouMuJj4sWmywytCSrswFvE3laLYOdD0dkkalXP1eMPfGK-LuFvO9COr4eiYn0XZ0wg36iKN_pTirQs-6uG22IXFVnxz83Qw_NgATjgMkvrdM1GET0tIjVxzQ2u5VuzJmbB-lO7MXBTICOp4sj8zIY4jO8Dd5avGDfZCHkji_TzsRobSKSoIOlppgFDB1mm5uGUuASrWZGGouQR37BuewT58af66K5Z9eEc-8UznV45YJ1p0IX87oLoK_y5O9ue6PF0oymV9yh746wxbIuRrdGm_WCPWxiOlDt5SLJvMv7S0RaaEMwsRw68Bk4PCPEuULdE_kGxMLfQT-wmmjHs2kppPwofnoYaKCOPBjJqLKF6SYmIfXd473nCtsQmvx1QkJ61WPiiWzkhe-5m_580OuOXQz6p_kFzxv5H3wuZvfTPS8kDBrEz6mjmOujMjdIMVH_lc7shqT_15CkS3ArM-iro1_9OR-KJjOz6c0gvcU9AV5RkUvdG94hGU4c4PXilibn1eFvWxABZvOucRl489hiWtTStbH8XqDm6EwEJcbX=w2000-h1266"
+            alt="Ruang Tidur (Sisi 2)" style="position: absolute; left: 0; top: 0;"></a>
+      </span>
+      <span class="bathroom-text">
+        BATHROOM
+      </span>
+      <span class="overlay-box"
+        style="position: absolute; right: 66%; bottom: 0%; width: 100vw; height: 68px; background-color: #000; z-index: 3; opacity: 0.5"></span>
+      <span class="bathroom">
+        <a data-fancybox="room-gallery"
+          href="https://lh3.googleusercontent.com/fife/AGXqzDnw4p5MmbHWGFB_f-pJ9Jg4FUSfWi706wrQ3uRXWemNvzyvwyDuczi0xxg7tqOBd0jQDyOyWAWDYCSjHm9VaBvs3MqhM5Rq_6Ijy7wD3t8kuVm0RNVhpdPoB64W_l7KqwFxm0qJSKZZMcBDhSR9wBmKAgsr45MPsBwmoE_tj__0P0Bh3GzgmPJ1jCDynYOb0CNQUKeChJd3ar74DveZXM7kll2rd4XNz-ejSf3w0gVqr5KnO7ckG7v_CX5lhAuGw2LYZ3ue0MQRT2DHWjnHvwsGHdBKIkne-RUMwKYo9V_HjVrZD1uf20jnPUOYb6l9xOlnl8ANF2bq79y1cjoOwfGOC0d79ZV7188ZLmNi5IsNyu1tQ4-j5ISQ-eCb40hgu7TUzTrydzM40y2zkDhs_EHkWBW3T4uQ-9UjI7ajAN6X4CX7DTiwqg2ymKNfiVS5FjJAir7w-GuBkreVhzbSFPkPFTl_k-jB7rWnCCo6esrh_zygWeRC5JwnWnBvQ3cQPJhxXPLMjFDGsnwblrRa66J2PoaRlZj-v3uO_qlVAQEAXPivtwtWaDGar3f2XswZVO4J0We_nskzgN8EFCsgQB2trJ_w5ebRsQCt0FSZP4tOef4_LQ-vwArlUdazBjlnpT_q85NS42MobcHc_ms5I2UtwwjsnIYW7Iczqo_ZEHC8oEl6AMho65Mp4cRBZDzbUbar9DH1UnKovdc3_tm0jtCgVC4rvUwCAxTbF6g-GUtRPKk7FjLeSkW226Ob7SLkpKKoR7jhzcoaZCx61nywwXSDUOEI4Leu2DYh9oJ7Hd-uPNw15mEGk3R3QYgsO8ezD8CfhXFvv_ZPHU7ME4cci07ymbvExWrRh2PPpsN6ghrfoybviBLJTROUlZaPPPmxiUBPsBH8BGsWcKg_iLxxKVrYjFDJgZhPX2B_uwh7Vc2Ms-OPRWTweeaKZ_8PU_deOK5fn0dJR3_W3agVihBBT43_DV4SiG5mnG-JpSoe3JNwW_B4rikxWA9l4c2DaJrW2h2heI6fDJbNLi-1kNs-jdI38nbBnbJGM3MlbUlB9qVtiuM7m0EgSBmc-fJROnXQJaVvoNfRedk7rCfAg-HCaLmFOTY6f9hSyn7T4IWF4UgbYgib3_f1FZa0YnESVvgU9XEjLuv0cBdlfnzrC-o77njSPlDjqkjCe_JRH-BGJanBXCuF7y2MAePRQVCRJBzfSCbX5D9W0bGOgmzEhlsHyiwwnGp6002ABr9DxQAyuq5KAAKpuYZH5GEoB6vZ_YcATNj1OKnUk6oDHUa7BOqMvDgZULDw11_G4kBM2W0HywrhQl4CLEhdmQquf7loDc1tD3krcDIojIMcvcZIeDUdHUlqbY6bQYRKQiVb9dxbbKo-IXcAmhdN2uU62srSX73Qoer4dmAEHoO7lf2EaY4sc0W5P3D3_LuzdyBEADSTh2KQbkiI3_WPxX6mwMwIS2I47ulwnc4jLiSW69x_ok_FFTXN22oXhDXpZqAth5mg-lsNEgoOBmndpwS36r4CQggTl6Tqw6cnBWHw8_J4mgILL4k89z0P=w2000-h1266"
+          alt="Kamar Mandi (Sisi 1)"><img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDnw4p5MmbHWGFB_f-pJ9Jg4FUSfWi706wrQ3uRXWemNvzyvwyDuczi0xxg7tqOBd0jQDyOyWAWDYCSjHm9VaBvs3MqhM5Rq_6Ijy7wD3t8kuVm0RNVhpdPoB64W_l7KqwFxm0qJSKZZMcBDhSR9wBmKAgsr45MPsBwmoE_tj__0P0Bh3GzgmPJ1jCDynYOb0CNQUKeChJd3ar74DveZXM7kll2rd4XNz-ejSf3w0gVqr5KnO7ckG7v_CX5lhAuGw2LYZ3ue0MQRT2DHWjnHvwsGHdBKIkne-RUMwKYo9V_HjVrZD1uf20jnPUOYb6l9xOlnl8ANF2bq79y1cjoOwfGOC0d79ZV7188ZLmNi5IsNyu1tQ4-j5ISQ-eCb40hgu7TUzTrydzM40y2zkDhs_EHkWBW3T4uQ-9UjI7ajAN6X4CX7DTiwqg2ymKNfiVS5FjJAir7w-GuBkreVhzbSFPkPFTl_k-jB7rWnCCo6esrh_zygWeRC5JwnWnBvQ3cQPJhxXPLMjFDGsnwblrRa66J2PoaRlZj-v3uO_qlVAQEAXPivtwtWaDGar3f2XswZVO4J0We_nskzgN8EFCsgQB2trJ_w5ebRsQCt0FSZP4tOef4_LQ-vwArlUdazBjlnpT_q85NS42MobcHc_ms5I2UtwwjsnIYW7Iczqo_ZEHC8oEl6AMho65Mp4cRBZDzbUbar9DH1UnKovdc3_tm0jtCgVC4rvUwCAxTbF6g-GUtRPKk7FjLeSkW226Ob7SLkpKKoR7jhzcoaZCx61nywwXSDUOEI4Leu2DYh9oJ7Hd-uPNw15mEGk3R3QYgsO8ezD8CfhXFvv_ZPHU7ME4cci07ymbvExWrRh2PPpsN6ghrfoybviBLJTROUlZaPPPmxiUBPsBH8BGsWcKg_iLxxKVrYjFDJgZhPX2B_uwh7Vc2Ms-OPRWTweeaKZ_8PU_deOK5fn0dJR3_W3agVihBBT43_DV4SiG5mnG-JpSoe3JNwW_B4rikxWA9l4c2DaJrW2h2heI6fDJbNLi-1kNs-jdI38nbBnbJGM3MlbUlB9qVtiuM7m0EgSBmc-fJROnXQJaVvoNfRedk7rCfAg-HCaLmFOTY6f9hSyn7T4IWF4UgbYgib3_f1FZa0YnESVvgU9XEjLuv0cBdlfnzrC-o77njSPlDjqkjCe_JRH-BGJanBXCuF7y2MAePRQVCRJBzfSCbX5D9W0bGOgmzEhlsHyiwwnGp6002ABr9DxQAyuq5KAAKpuYZH5GEoB6vZ_YcATNj1OKnUk6oDHUa7BOqMvDgZULDw11_G4kBM2W0HywrhQl4CLEhdmQquf7loDc1tD3krcDIojIMcvcZIeDUdHUlqbY6bQYRKQiVb9dxbbKo-IXcAmhdN2uU62srSX73Qoer4dmAEHoO7lf2EaY4sc0W5P3D3_LuzdyBEADSTh2KQbkiI3_WPxX6mwMwIS2I47ulwnc4jLiSW69x_ok_FFTXN22oXhDXpZqAth5mg-lsNEgoOBmndpwS36r4CQggTl6Tqw6cnBWHw8_J4mgILL4k89z0P=w2000-h1266"
+            alt="Kamar Mandi (Sisi 1)" style="position: absolute; left: 66%; top: 0;"></a>
+        <a data-fancybox="room-gallery"
+          href="https://lh3.googleusercontent.com/fife/AGXqzDkEEoGDl4vKdvYGzqL3jAa_v4FeR7ghvtBrlecowhF8AvXO-M3ULw8JGCE7TbbdXyh_cYaBJ49TfXKHSPj6vyFF_fXKYIO17z43DNZ_mXpTiY2BS6DfrcCLpDKIsO6fHyzK6bF0ewYDJ5ehcLZ5x-OnDGrOjF9mFW0-bKYGLRxYZfAQBZW182OIjmac8s6x5uymmKbtAnEjhQ4hJXieRmNXuuWuGnVERUxDB3F1HLVQ2A-6UpY7QoLsduOhjPMNzmuRUSOkioSWocJU2wf4YoHXiPQ_24B4azN3I-yX6x-1MKC7oH8lw32rTdJqMV5E3LlLKDbhpXTWv5WKbJQdulznNsuErutwJtWeCbiBABpSGIP0F23eLn3oEbtDAjg3pEzWLmhYh2whRVzThCjcTmu_cHRxCHgNOcnF61xleHfTwS-4wG6NNND_gAcfk8Ct9KlR3BNuaFRn0nPVeUsA4IdzoGxmdRzfNZlwpxpaFPqJg6kaw2H-Z1ECdX1gAEObMvXNie3wMh2-PkjY7d2b5fnIqhEbRzytA-snynSpKY6UeI1wduVzcEgLPbh4x1vFkMn_N5kNVNWVPGSQk_5wqowGbyA3O6TavcB-FKuB2iSGDPfwV1itKFs_ifbtBkIAC8r-xkSycjyradxOSRIIpyKAPtbef-T4M4Q4f3Q6at4fwr3X9aJEAPanxeQDfm0yZ12RDy2-Z3bXXsQg7G80knjJWClQqLmSWogCk7p0AmB-i4kcP-rvvIUo6q4inYOgXgbRSzm_lgl_bJ3ZxHEiPU4qEyTiLGLlMxOn6vIcNYxg4cBn_r0gl_7U44fWZn7mKvSyby9Y5N7cwDQBZxScGuxMV-KStbrcDGn43KzVoJPKF411P8WKspdWYqjoFZInX9XZMEjfEcBJLamNTv33rlXC7uI5KtU9NFyKsa7y8bqGJKGw5jkGF5K7CMLKGdlqKyYRcvcdQzEG9NrJ_S-1S5sjXQf3z1LmOW6twkqiR3rcMz957X8wrRS2UOf_ZsjX3RrnBxkeIELos_GEBmANZKaQpymt6ojO46H9hN-oFsiT4F_435zc6Pc6U2nbh5qXS47vwGAD4XDGlPvgkhbRE74LQSX-2PBWeRF6JX7ZjRe5WrcvZe4EKdCE84SB_IS-1sn_dplnxomqlGyE6GzAdWXroI3uAUOgaVoXc1xNrzXYAY9VYgiYChb9pcpQD8kHH5Ps_9l7M_6SVk_QK7Fu6tVxTM6o6rMtoqrIMgih8eWcN9OVj1ebkmamX0x0g6n5pZVrvF750IueMJnaZTbR4l6QiUC0mgzz7UO4SZ97oe9x7O6gI9qVXiQAtldr2j5DG8_G0H28kFF5wVeojLZw8wqy5JEMCgQ4JfYJqwSBbEQ_rey-z6f4vA_qCqf1ie2gbSYVxrrmtHy5p0crfCDwEx4DvNZ2wLmmk8KeDIjwhYtB1DVvkXpSeahpLvuG_jAgSWVuyYS-b7ew00KZsTqoyQA4FZhdLEB6dudFzQfo521h1gaOF1hyRzQGmVHtS0gIztDUtDOfgjUSUAUTq_3xO0iThtHh=w2000-h1266"
+          alt="Kamar Mandi (Sisi 2)"><img
+            src="https://lh3.googleusercontent.com/fife/AGXqzDkEEoGDl4vKdvYGzqL3jAa_v4FeR7ghvtBrlecowhF8AvXO-M3ULw8JGCE7TbbdXyh_cYaBJ49TfXKHSPj6vyFF_fXKYIO17z43DNZ_mXpTiY2BS6DfrcCLpDKIsO6fHyzK6bF0ewYDJ5ehcLZ5x-OnDGrOjF9mFW0-bKYGLRxYZfAQBZW182OIjmac8s6x5uymmKbtAnEjhQ4hJXieRmNXuuWuGnVERUxDB3F1HLVQ2A-6UpY7QoLsduOhjPMNzmuRUSOkioSWocJU2wf4YoHXiPQ_24B4azN3I-yX6x-1MKC7oH8lw32rTdJqMV5E3LlLKDbhpXTWv5WKbJQdulznNsuErutwJtWeCbiBABpSGIP0F23eLn3oEbtDAjg3pEzWLmhYh2whRVzThCjcTmu_cHRxCHgNOcnF61xleHfTwS-4wG6NNND_gAcfk8Ct9KlR3BNuaFRn0nPVeUsA4IdzoGxmdRzfNZlwpxpaFPqJg6kaw2H-Z1ECdX1gAEObMvXNie3wMh2-PkjY7d2b5fnIqhEbRzytA-snynSpKY6UeI1wduVzcEgLPbh4x1vFkMn_N5kNVNWVPGSQk_5wqowGbyA3O6TavcB-FKuB2iSGDPfwV1itKFs_ifbtBkIAC8r-xkSycjyradxOSRIIpyKAPtbef-T4M4Q4f3Q6at4fwr3X9aJEAPanxeQDfm0yZ12RDy2-Z3bXXsQg7G80knjJWClQqLmSWogCk7p0AmB-i4kcP-rvvIUo6q4inYOgXgbRSzm_lgl_bJ3ZxHEiPU4qEyTiLGLlMxOn6vIcNYxg4cBn_r0gl_7U44fWZn7mKvSyby9Y5N7cwDQBZxScGuxMV-KStbrcDGn43KzVoJPKF411P8WKspdWYqjoFZInX9XZMEjfEcBJLamNTv33rlXC7uI5KtU9NFyKsa7y8bqGJKGw5jkGF5K7CMLKGdlqKyYRcvcdQzEG9NrJ_S-1S5sjXQf3z1LmOW6twkqiR3rcMz957X8wrRS2UOf_ZsjX3RrnBxkeIELos_GEBmANZKaQpymt6ojO46H9hN-oFsiT4F_435zc6Pc6U2nbh5qXS47vwGAD4XDGlPvgkhbRE74LQSX-2PBWeRF6JX7ZjRe5WrcvZe4EKdCE84SB_IS-1sn_dplnxomqlGyE6GzAdWXroI3uAUOgaVoXc1xNrzXYAY9VYgiYChb9pcpQD8kHH5Ps_9l7M_6SVk_QK7Fu6tVxTM6o6rMtoqrIMgih8eWcN9OVj1ebkmamX0x0g6n5pZVrvF750IueMJnaZTbR4l6QiUC0mgzz7UO4SZ97oe9x7O6gI9qVXiQAtldr2j5DG8_G0H28kFF5wVeojLZw8wqy5JEMCgQ4JfYJqwSBbEQ_rey-z6f4vA_qCqf1ie2gbSYVxrrmtHy5p0crfCDwEx4DvNZ2wLmmk8KeDIjwhYtB1DVvkXpSeahpLvuG_jAgSWVuyYS-b7ew00KZsTqoyQA4FZhdLEB6dudFzQfo521h1gaOF1hyRzQGmVHtS0gIztDUtDOfgjUSUAUTq_3xO0iThtHh=w2000-h1266"
+            alt="Kamar Mandi (Sisi 2)" style="position: absolute; left: 66%; top: 0;"></a>
+      </span>
+    </div>
+  </div>
+  <div class="section-four">
+    <p></p>
+
+    <p style="
+         text-align: center;
+        font-family: Poppins;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.5px;">
+      Tentang Kami</p>
+    <!--<div class="ttgkami-container">-->
+    <p></p>
+    <p>Lovender Family Villa & Self Photo Studio adalah <em>villa untuk keluarga/family/friends dengan style Bali yang
+        asri. </em> Terletak di lokasi yang sangat strategis di <em>utara kota Bandung, sangat dekat dengan Lembang
+        sebagai lokasi wisata utama di Bandung</em>, namun juga tidak jauh dari kota Bandung, khususnya wilayah Dago,
+      Cihampelas, Setiabudi dan sekitarnya.</p>
+
+    <p>Banyak tujuan wisata yang mudah dicapai dari Family Villa Lovender, misalnya <em>The Great Asia Africa, Floating
+        Market, Lembang Park & Zoo, Farm House Susu Lembang, Rumah Mode, Orchid Forest, Fairy Garden, Tangkuban Perahu,
+        PVJ Mall, Viphassana Graha Theravada Temple,</em> dll.</p>
+
+    <p>Lokasi yang stategis serta fasilitas yang disediakan membuat Lovender Family Villa & Self Photo menjadi tempat
+      yang <strong>sangat nyaman untuk stay bersama keluarga dan sahabat menikmati udara sejuk kota Bandung.</strong>
+    </p>
+    <!-- </div> -->
+  </div>
+  <div class="section-five" id="location">
+    <gmp-map center="-6.85459041595459,107.58319091796875" zoom="14" map-id="Lovender_Map">
+      <gmp-advanced-marker position="-6.85459041595459,107.58319091796875" title="Lovender">
+      </gmp-advanced-marker>
+    </gmp-map>
+  </div>
+  <div class="section-six" id="review">
+    <div class="review">
+      <p></p>
+      <p style="
+          text-align: center;
+          font-family: Poppins;
+          font-size: 25px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: 1.5px;"">Reviews
+          </p>
+          
+      <div class=" widget">
+        <!-- Start BawkBox Code-->
+        <script
+          data-sil-id="6592c09f190345001eee1e5d">var loadWidget = function () {var d = document, w = window, l = window.location, p = l.protocol == "file:" ? "http://" : "//"; if (!w.WS) w.WS = {}; c = w.WS; var m = function (t, o) {var e = d.getElementsByTagName("script"); e = e[e.length - 1]; var n = d.createElement(t); if (t == "script") {n.async = true;} for (k in o) n[k] = o[k]; e.parentNode.insertBefore(n, e)}; m("script", {src: p + "bawkbox.com/widget/star-rating/6592c09f190345001eee1e5d?page=" + encodeURIComponent(l + ''), type: 'text/javascript'}); c.load_net = m;}; if (window.Squarespace) {document.addEventListener('DOMContentLoaded', loadWidget); setTimeOut(function () {document.addEventListener('DOMContentLoaded', loadWidget);}, 3000)} else {loadWidget()} </script>
+        <script type="application/ld+json" src="/widget/star-rating/6592c09f190345001eee1e5d/microdata"></script>
+      <div class="sil-widget-star-rating sil-widget" id="sil-widget-6592c09f190345001eee1e5d"><a
+          href="//bawkbox.com/install/star-rating">Customer Reviews</a></div><!-- End BawkBox Code-->
+    </div>
+  </div>
+  </div>
+  <div class="section-seven" id="rates">
+    <p style="
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.5px;">OUR RATES</p>
+    <p><strong>Weekdays:</strong> Rp 2.500.000 (2D1N)</p>
+    <p><strong>Weekends:</strong> Rp 3.000.000 (2D1N)</p>
+    <!--<p><strong>Periode 24 - 26 Des:</strong> Rp 3.500.000 (2D1N)</p>
+    <p><strong>Periode 30 Des - 1 Jan:</strong> Rp 4.000.000 (2D1N)</p>-->
+    <p></p>
+    <p><strong>Check-in:</strong> 14.00 WIB</p>
+    <p><strong>Check-out:</strong> 12.00 WIB</p>
+  </div>
+
+  <div class="contacts-container">
+    <div class="section-eight" id="contact">
+      <p style="
+      text-align: center;
+      font-family: Poppins;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 1.5px;">CONTACT US</p>
+      <p><br></p>
+      <whatsapp-button phone="8123753178" dialcode="62" text="hey there!" label="Start Chat"></whatsapp-button>
+      <a aria-label="Chat on WhatsApp" href="https://wa.me/628123753178" "> <img alt=" Chat on WhatsApp"
+        src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYRGnH5ZPqq3nvncGDaTx7nGyRePKHrLzwg6d73KfQipv2F3c74-srZbMfE8Mb0Pq0lu2KP6nR2VBdBmjnCDmjFkWOrfWQ=s2560"
+        style="max-width:60vw; left:50%; transform: translateX (-50%);"></a>
+     <p><br></p>
+      <p class="cntcs">&#48;&#56;&#49;&#50;&#51;&#55;&#53;&#51;&#49;&#55;&#56; (Rosi-Owner)</p>
+      <p class="cntcs">&#48;&#56;&#49;&#49;&#50;&#49;&#48;&#55;&#51;&#55;&#51; (Tasya-Admin)</p>
+      <p><br></p>
+    </div>
+  </div>
+
+  <!-- Footer content goes here -->
+  <footer>
+    <p>&copy; Copyright lovenderbandung.com 2012-2024</p>
+  </footer>
+  <script src="script.js"></script>
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6mv23tBZp1jvcGF51ldilvm_eWgnUay4&callback=console.debug&libraries=maps,marker&v=beta"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+</body>
+
+</html>
