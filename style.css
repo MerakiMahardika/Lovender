@@ -635,7 +635,7 @@ height: auto;
   overflow-x: hidden;
   position: relative;
   overflow-y: hidden;
-  height:1400px;
+  height: 1400px;
   font-family: 'Mulish', sans-serif;
   text-align: center;
   color: #000;
@@ -646,16 +646,27 @@ height: auto;
   left:50%;
   transform: translateX(-50%);
 
+}
+@media only screen and (max-width: 768px) {
+  .section-six
+  {
+    width: 100vw;
+
+
+  }
+  .widget{
+    width:100%;
+
+  }
 }
 
 .section-seven {
   overflow-x: hidden;
   position: relative;
   overflow-y: hidden;
+  height: auto;
   padding-left: 10%;
   padding-right:10%;
-  padding-top: 5vh;
-  height: auto;
   font-family: 'Mulish', sans-serif;
   text-align: center;
   color: #000;
@@ -665,11 +676,12 @@ height: auto;
   max-width:1100px;
   left:50%;
   transform: translateX(-50%);
+  min-height: 400px;
 }
 @media only screen and (max-width: 768px) {
     .section-seven{
       height:fit-content;
-      min-height: 400px;
+     
     }
 }
 
@@ -761,7 +773,7 @@ height: auto;
 
 .widget{
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
   max-height: 1200px;
   display: grid;
   place-items: center;
@@ -800,15 +812,7 @@ a.alamat:visited {
     direction: ltr;
 }
 
-@media only screen and (max-width: 768px) {
-  .section-six
-  {
-    width: 100vw;
-  }
-  .widget{
-    width:100%;
-  }
-}
+
 
 .section-ten
 {
