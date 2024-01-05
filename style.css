@@ -746,7 +746,9 @@ height: auto;
 
 
 .review {
+  overflow-x: hidden;
   overflow-y: hidden;
+  width: 80vw;
   height:1300px;
   position: absolute;
   left: 50%;
@@ -758,7 +760,7 @@ height: auto;
 
 
 .widget{
-  
+  overflow-x: hidden;
   overflow-y: hidden;
   max-height: 1200px;
   display: grid;
