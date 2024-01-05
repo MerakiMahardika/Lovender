@@ -635,7 +635,7 @@ height: auto;
   overflow-x: hidden;
   position: relative;
   overflow-y: hidden;
-  height: 1400px;
+  height: 950px;
   font-family: 'Mulish', sans-serif;
   text-align: center;
   color: #000;
@@ -757,11 +757,12 @@ height: auto;
  }
 
 
+
 .review {
   overflow-x: hidden;
   overflow-y: hidden;
   width: 80vw;
-  height:1300px;
+  height:1000px;
   position: absolute;
   left: 50%;
   top: 10%;
@@ -774,13 +775,15 @@ height: auto;
 .widget{
   overflow-x: hidden;
   overflow-y: auto;
-  max-height: 1200px;
+  max-height: 900px;
   display: grid;
   place-items: center;
   width: 100%;
   max-width: 850px;
 
 }
+
+
 
 a:link {
   color: #EFEAE6; 
