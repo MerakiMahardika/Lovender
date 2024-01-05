@@ -756,13 +756,14 @@ height: auto;
 
 
 
+
 .widget{
   
   overflow-y: hidden;
   max-height: 1200px;
   display: grid;
   place-items: center;
-  width: 80%;
+  width: 100%;
   max-width: 850px;
 
 }
@@ -798,8 +799,12 @@ a.alamat:visited {
 }
 
 @media only screen and (max-width: 768px) {
+  .section-six
+  {
+    width: 100vw;
+  }
   .widget{
-    width:100%;
+    width:100vw;
   }
 }
 
