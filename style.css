@@ -803,7 +803,7 @@ a.alamat:visited {
 @media only screen and (max-width: 768px) {
   .section-six
   {
-    width: 100vw;
+    width: 100%;
   }
   .widget{
     width:100%;
