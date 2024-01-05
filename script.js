@@ -271,3 +271,42 @@ $(document).ready(function () {
         },
     });
 });
+
+$(document).ready(function () {
+    $("[data-fancybox='guests-gallery']").fancybox({
+        loop: true,
+        thumbs: {
+            autoStart: true,
+        },
+        caption: function(instance, current) {
+            return $(current.opts.$orig).attr('alt');
+        },
+    });
+});
+
+
+var slideGuestsPics = 0;
+
+function showSlidesGuests() {
+    var slides = document.querySelectorAll('.guests-pics a');
+
+    for (var i = 0; i < slides.length; i++) {
+        slides[i].style.opacity = 0;
+    }
+
+    slideGuestsPics++;
+    if (slideGuestsPics > slides.length) {
+        slideGuestsPics = 1;
+    }
+
+    slides[slideGuestsPics - 1].style.opacity = 1;
+    setTimeout(showSlidesGuests, 2000);
+}
+
+showSlidesGuests();
+
+
+  function goTo(link) {
+    window.location.href = link;
+  }
+
