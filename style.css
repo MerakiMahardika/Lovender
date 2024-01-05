@@ -635,7 +635,7 @@ height: auto;
   overflow-x: hidden;
   position: relative;
   overflow-y: hidden;
-  height:900px;
+  height:1400px;
   font-family: 'Mulish', sans-serif;
   text-align: center;
   color: #000;
@@ -745,9 +745,9 @@ height: auto;
  }
 
 
-.reviews-container {
-  max-width: 50%;
-  height:250px;
+.review {
+  overflow-y: hidden;
+  height:1300px;
   position: absolute;
   left: 50%;
   top: 10%;
@@ -758,11 +758,11 @@ height: auto;
 
 .widget{
   
-  overflow-y: auto; max-height: 800px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 75%;
+  overflow-y: hidden;
+  max-height: 1200px;
+  display: grid;
+  place-items: center;
+  width: 80%;
   max-width: 850px;
 
 }
