@@ -305,8 +305,23 @@ function showSlidesGuests() {
 
 showSlidesGuests();
 
-
-  function goTo(link) {
+function goTo(link) {
     window.location.href = link;
-  }
+}
+
+
+let testiIndex = 0;
+
+function movetesti(direction) {
+  const testi = document.getElementById('testimony-slides');
+  const totaltesti = testi.children.length;
+
+  testiIndex += direction;
+
+  if (testiIndex < 0) testiIndex = totaltesti - 1;
+  if (testiIndex >= totaltesti) testiIndex = 0;
+
+  testi.style.transform = `translateX(-${testiIndex * 100}%)`;
+}
+
 
