@@ -61,9 +61,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p></p>
     <div class="menu-item" onclick="scrollToSection('guests')">Guests</div>
     <p></p>
+    <div class="menu-item" onclick="scrollToSection('testimony')">Testimony</div>
+    <p></p>
     <div class="menu-item" onclick="scrollToSection('review')">Reviews</div>
     <p></p>
-    <div class="menu-item" onclick="scrollToSection('rates')">Rates</div>
+    <div class="menu-item" onclick="scrollToSection('rates')">Information</div>
     <p></p>
     <div class="menu-item" onclick="navigateTo('policies')">Policies</div>
     <p></p>
@@ -75,8 +77,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="#facilities">FACILITIES</a>
     <a href="#rooms">ROOMS</a>
     <a href="#guests">GUESTS</a>
+    <a href="#testimony">TESTIMONIES</a>
     <a href="#review">REVIEWS</a>
-    <a href="#rates">RATES</a>
+    <a href="#rates">INFORMATION</a>
     <a href="policies.html">POLICY</a>
     <a href="#contact">CONTACT</a>
     <p></p>
@@ -500,6 +503,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     </div>
   </div>
+  <div class="testimony" id="testimony">
+    <h2> Testimonies </h2>
+    <br>
+    <button class="testimony-arrow left" onclick="movetesti(-1)">❮</button>
+    <div class="testimony-slides" id="testimony-slides">
+      <div class="testimony-slide">
+        <img src="https://raw.githubusercontent.com/yuiyeyo/Lovender/refs/heads/main/lovender%20asset/testimony/1.jpg" alt="testimony 1">
+      </div>
+      <div class="testimony-slide">
+        <img src="https://raw.githubusercontent.com/yuiyeyo/Lovender/refs/heads/main/lovender%20asset/testimony/2.jpg" alt="testimony 2">
+      </div>
+    </div>
+    <button class="testimony-arrow right" onclick="movetesti(1)">❯</button>
+  </div>
   <div class="section-six" id="review">
 
     <h2> Reviews </h2>
@@ -520,15 +537,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   </div>
   <div class="section-seven" id="rates">
-    <h2>OUR RATES</h2>
+    <h2>INFORMATION</h2>
     <p><strong>Weekdays:</strong> Rp 2.500.000 (2D1N)</p>
     <p><strong>Weekends:</strong> Rp 3.000.000 (2D1N)</p>
  
     <!--<p><strong>Periode 24 - 26 Des:</strong> Rp 3.500.000 (2D1N)</p>
     <p><strong>Periode 30 Des - 1 Jan:</strong> Rp 4.000.000 (2D1N)</p>-->
-    <p></p>
+    <!--<p></p>
     <p><strong>Check-in:</strong> 14.00 WIB</p>
-    <p><strong>Check-out:</strong> 12.00 WIB</p>
+    <p><strong>Check-out:</strong> 12.00 WIB</p>-->
     <br>
   </div>
 
@@ -549,7 +566,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         style="max-width:60vw; left:50%; transform: translateX (-50%);"></a>
      <p><br></p>
       <p class="cntcs">&#48;&#56;&#49;&#50;&#51;&#55;&#53;&#51;&#49;&#55;&#56; (Rosi-Owner)</p>
-      <p class="cntcs">&#48;&#56;&#49;&#49;&#50;&#49;&#48;&#55;&#51;&#55;&#51; (Tasya-Admin)</p>
       <p><br></p>
     </div>
   </div>
